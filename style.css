@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+  margin: 0;               /* Außenabstand entfernen */
+  font-family: 'Google Sans Code', sans-serif; /* Moderne Schriftart */
+  color: #fff3f3;          /* Helle Schrift */
+  background: linear-gradient(60deg,rgb(74, 74, 80),rgb(156, 142, 142)); /* Dunkler Verlauf */
+}
+.navbar {
+  position: relative;
+  top: 0px;
+  width: 30%;
+  font-size: 1.2rem;
+  background: rgba(58, 58, 58, 0.8); /* Halbtransparenter Hintergrund */
+  border-bottom: 1px solid rgba(255,255,255,0.15); /* Leichter Rand */
+  z-index: 1000;
+}
+
+h2{
+  font-size: 3rem;
+  margin: 0;
+
+}
+.H1{
+  position:fixed;
+  top:5%;
+  right:20%;
+ 
+}
+
+#home{
+  min-height: 100vh;      /* Volle Höhe des Viewports */
+  
+}
+.Aboutme{
+  width: 40%;
+  height: auto;
+  font-size:1.5rem;
+  line-height:1.6;
+  background: rgba(58, 58, 58, 0.6); /* Halbtransparenter Hintergrund */
+  border-radius: 12px; /* Abgerundete Ecken */
+  border:1px solid rgba(255,255,255,0.15); /* Leichter Rand */
+  position: relative;
+  top: 200px;
+}
+#projects {
+    min-height:100vh;
+    padding:50px;
+    width: 100%;
+    }
+
+.project-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: minmax(300px, 30%); /* Fixe Breite von 30% */
+    justify-content: start; /* Ausrichtung links */
+    margin-left: 24px; /* Abstand vom linken Rand */
+}
+
+.projectcard {
+    background: #3a3a3a;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 24px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projectcard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Für alle Bildschirmgrößen gleich */
+@media (min-width: 800px) {
+    .project-grid {
+        grid-template-columns: minmax(300px, 30%);
+    }
+}
+footer {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 2rem;
+    text-align: center;
+    margin-top: 40px;
+}
