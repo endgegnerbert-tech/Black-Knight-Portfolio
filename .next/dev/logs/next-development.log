@@ -1,0 +1,800 @@
+[00:00:01.807] Server  LOG      ✓ Ready in 1273ms
+[00:00:10.827] Server  ERROR    ⨯ Error: The default export is not a React Component in "/layout"
+[00:00:11.099] Server  ERROR    ⨯ Error: The default export is not a React Component in "/layout"
+[00:00:12.297] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/layout"
+[00:04:51.471] Server  LOG      ✓ Compiled in 778ms
+[00:04:52.312] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:37.726] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:39.342] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:41.771] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:47.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:17.775] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:47.460] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:19:47.465] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:19:47.466] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:19:47.467] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:19:47.469] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:19:47.512] Server  LOG      ✓ Compiled in 175ms
+[00:19:47.733] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:21:32.733] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:21:38.086] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:38.277] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:21:38.673] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:21:38.864] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:21:38.956] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:21:38.956] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:21:57.732] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:06.422] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:06.859] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.068] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:07.068] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:07.429] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.688] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:07.860] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:07.860] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:08.144] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:08.460] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:08.496] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:08.516] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:08.857] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:09.028] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:09.028] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:09.084] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:09.345] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:09.525] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:09.525] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:09.922] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:10.159] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:10.338] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:10.338] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:10.803] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:11.246] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:11.430] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:11.430] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:28.735] Browser ERROR   ./src/app/layout.tsx:2:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from "next";
+> 2 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | // 📋 SEO-Informationen für deine Website
+  5 | export const metadata: Metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:13.763] Server  LOG      ✓ Compiled in 101ms
+[00:24:14.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:46.245] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:13.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:53.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:52.729] Browser ERROR   ./src/components/gProject.tsx:1:1
+Export Projekte doesn't exist in target module
+> 1 | import { Projekte } from "@/data/Projekte";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ProjectCard from "./ProjectCard";
+  3 |
+  4 | export default function GProject() {
+
+The export Projekte was not found in module [project]/src/data/Projekte.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/gProject.tsx
+    ./src/app/page.tsx
+[00:33:02.446] Server  LOG      ✓ Compiled in 89ms
+[00:33:02.728] Browser ERROR   ./src/components/gProject.tsx:1:1
+Export Projekte doesn't exist in target module
+> 1 | import { Projekte } from "@/data/Projekte";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ProjectCard from "./ProjectCard";
+  3 |
+  4 | export default function GProject() {
+
+The export Projekte was not found in module [project]/src/data/Projekte.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/gProject.tsx
+    ./src/app/page.tsx
+[00:33:58.731] Browser ERROR   ./src/components/gProject.tsx:1:1
+Export Projekte doesn't exist in target module
+> 1 | import { Projekte } from "@/data/Projekte";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ProjectCard from "./ProjectCard";
+  3 |
+  4 | export default function GProject() {
+
+The export Projekte was not found in module [project]/src/data/Projekte.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/gProject.tsx
+    ./src/app/page.tsx
+[00:34:48.731] Browser ERROR   ./src/components/gProject.tsx:1:1
+Export Projekte doesn't exist in target module
+> 1 | import { Projekte } from "@/data/Projekte";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ProjectCard from "./ProjectCard";
+  3 |
+  4 | export default function GProject() {
+
+The export Projekte was not found in module [project]/src/data/Projekte.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/gProject.tsx
+    ./src/app/page.tsx
+[00:34:55.571] Server  LOG      ✓ Compiled in 35ms
+[00:37:19.550] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:48.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:48.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:10.944] Server  LOG      ✓ Compiled in 22ms
+[00:40:40.357] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:40.712] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:31.578] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.579] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.581] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.581] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.583] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.590] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.597] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.600] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.602] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.604] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.606] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.606] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:41:31.730] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/components/Footer'
+  1 | import Hero from "@/components/Hero";
+  2 | import GProject from "@/components/gProject";
+> 3 | import Footer from "@/components/Footer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Home() {
+  6 |   return (
+
+Import map: aliased to relative './src/components/Footer' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:41:40.536] Server  LOG      ✓ Compiled in 292ms
+[00:42:38.339] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
