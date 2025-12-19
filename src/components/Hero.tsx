@@ -84,10 +84,10 @@ export default function Hero() {
               Wenn you want to get in touch, feel free to reach out via email at
             </p>
             <a
-              href="mailto:einar.jaegereinar@icloud.com"
+              href="mailto:einar@black-knight.dev"
               className="text-2xl text-blue-400 hover:text-blue-300 transition underline"
             >
-              einar.jaegereinar@icloud.com
+              einar@black-knight.dev
             </a>
             <p className="text-gray-400 mt-8 mb-4">
               Here&apos;s my{" "}
