@@ -1,800 +1,531 @@
-[00:00:01.807] Server  LOG      ✓ Ready in 1273ms
-[00:00:10.827] Server  ERROR    ⨯ Error: The default export is not a React Component in "/layout"
-[00:00:11.099] Server  ERROR    ⨯ Error: The default export is not a React Component in "/layout"
-[00:00:12.297] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/layout"
-[00:04:51.471] Server  LOG      ✓ Compiled in 778ms
-[00:04:52.312] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:37.726] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:39.342] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:41.771] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:47.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:17.775] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:47.460] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:19:47.465] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:19:47.466] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:19:47.467] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:19:47.469] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:19:47.512] Server  LOG      ✓ Compiled in 175ms
-[00:19:47.733] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:21:32.733] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:21:38.086] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:21:38.277] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:21:38.673] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:21:38.864] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:21:38.956] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:21:38.956] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:21:57.732] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:06.422] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:06.859] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:07.068] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:07.068] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:07.429] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:07.688] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:07.860] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:07.860] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:08.144] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:08.460] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:08.496] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:08.516] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:08.857] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:09.028] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:09.028] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:09.084] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:09.345] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:09.525] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:09.525] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:09.922] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:10.159] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:10.338] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:10.338] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:10.803] Server  ERROR    ⨯ ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:11.246] Browser ERROR   uncaughtError: Error: ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:22:11.430] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:11.430] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:22:28.735] Browser ERROR   ./src/app/layout.tsx:2:1
-Module not found: Can't resolve './globals.css'
-  1 | import type { Metadata } from "next";
-> 2 | import "./globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | // 📋 SEO-Informationen für deine Website
-  5 | export const metadata: Metadata = {
-
-https://nextjs.org/docs/messages/module-not-found
-[00:24:13.763] Server  LOG      ✓ Compiled in 101ms
-[00:24:14.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:46.245] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:13.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:53.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:52.729] Browser ERROR   ./src/components/gProject.tsx:1:1
-Export Projekte doesn't exist in target module
-> 1 | import { Projekte } from "@/data/Projekte";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import ProjectCard from "./ProjectCard";
-  3 |
-  4 | export default function GProject() {
-
-The export Projekte was not found in module [project]/src/data/Projekte.ts [app-rsc] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:00:04.007] Server  LOG      ✓ Ready in 3.5s
+[00:00:26.715] Server  ERROR    ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/src/app/globals.css:1:1: Package path ./base is not exported from package /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss (see exports field in /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[00:00:28.002] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/src/app/globals.css:1:1: Package path ./base is not exported from package /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss (see exports field in /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[00:00:28.193] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/src/app/globals.css:1:1: Package path ./base is not exported from package /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss (see exports field in /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:00:28.531] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/src/app/globals.css:1:1: Package path ./base is not exported from package /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss (see exports field in /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:00:45.646] Server  ERROR    ⨯ ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/src/app/globals.css:1:1: Package path ./base is not exported from package /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss (see exports field in /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[00:00:45.881] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/src/app/globals.css:1:1: Package path ./base is not exported from package /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss (see exports field in /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+[00:00:46.023] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/src/app/globals.css:1:1: Package path ./base is not exported from package /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss (see exports field in /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:00:46.023] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/src/app/globals.css:1:1: Package path ./base is not exported from package /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss (see exports field in /Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/tailwindcss/package.json)
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:01:13.247] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:38.739] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:34.211] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:16.240] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:53.235] Browser ERROR   ./src/components/Hero.tsx:1:7
+Parsing ecmascript source code failed
+> 1 | mache hier eine function fuer den about me text das  er erscheint wenn man runter scrollt ganz leicht animiert
+    |       ^^^^
+  2 |
+  3 | export default function Hero() {
+  4 |   return (
+
+Expected ';', '}' or <eof>
 
 Import trace:
   Server Component:
-    ./src/components/gProject.tsx
+    ./src/components/Hero.tsx
     ./src/app/page.tsx
-[00:33:02.446] Server  LOG      ✓ Compiled in 89ms
-[00:33:02.728] Browser ERROR   ./src/components/gProject.tsx:1:1
-Export Projekte doesn't exist in target module
-> 1 | import { Projekte } from "@/data/Projekte";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import ProjectCard from "./ProjectCard";
-  3 |
-  4 | export default function GProject() {
+[00:09:04.715] Server  LOG      ✓ Compiled in 172ms
+[00:09:04.814] Browser ERROR   ./src/components/Hero.tsx:3:1
+Ecmascript file had an error
+  1 | import { useEffect, useRef, useState } from 'react';
+  2 |
+> 3 | 'use client';
+    | ^^^^^^^^^^^^^
+  4 |
+  5 | export default function Hero() {
+  6 |     const [isVisible, setIsVisible] = useState(false);
 
-The export Projekte was not found in module [project]/src/data/Projekte.ts [app-rsc] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
 
 Import trace:
   Server Component:
-    ./src/components/gProject.tsx
+    ./src/components/Hero.tsx
     ./src/app/page.tsx
-[00:33:58.731] Browser ERROR   ./src/components/gProject.tsx:1:1
-Export Projekte doesn't exist in target module
-> 1 | import { Projekte } from "@/data/Projekte";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import ProjectCard from "./ProjectCard";
-  3 |
-  4 | export default function GProject() {
+[00:09:04.815] Browser ERROR   ./src/components/Hero.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from 'react';
+    |          ^^^^^^^^^
+  2 |
+  3 | 'use client';
+  4 |
 
-The export Projekte was not found in module [project]/src/data/Projekte.ts [app-rsc] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
 Import trace:
   Server Component:
-    ./src/components/gProject.tsx
+    ./src/components/Hero.tsx
     ./src/app/page.tsx
-[00:34:48.731] Browser ERROR   ./src/components/gProject.tsx:1:1
-Export Projekte doesn't exist in target module
-> 1 | import { Projekte } from "@/data/Projekte";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import ProjectCard from "./ProjectCard";
-  3 |
-  4 | export default function GProject() {
+[00:09:04.815] Browser ERROR   ./src/components/Hero.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from 'react';
+    |                     ^^^^^^
+  2 |
+  3 | 'use client';
+  4 |
 
-The export Projekte was not found in module [project]/src/data/Projekte.ts [app-rsc] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
 Import trace:
   Server Component:
-    ./src/components/gProject.tsx
+    ./src/components/Hero.tsx
     ./src/app/page.tsx
-[00:34:55.571] Server  LOG      ✓ Compiled in 35ms
-[00:37:19.550] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:48.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:48.901] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:40:10.944] Server  LOG      ✓ Compiled in 22ms
-[00:40:40.357] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:40:40.712] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:41:31.578] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:09:04.815] Browser ERROR   ./src/components/Hero.tsx:1:29
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from 'react';
+    |                             ^^^^^^^^
+  2 |
+  3 | 'use client';
   4 |
-  5 | export default function Home() {
-  6 |   return (
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:41:31.579] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:23.633] Browser ERROR   ./src/components/Hero.tsx:3:1
+Ecmascript file had an error
+  1 | import { useEffect, useRef, useState } from "react";
+  2 |
+> 3 | ("use client");
+    | ^^^^^^^^^^^^^^^
   4 |
-  5 | export default function Home() {
-  6 |   return (
+  5 | export default function Hero() {
+  6 |   const [isVisible, setIsVisible] = useState(false);
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
 
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:41:31.581] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:23.633] Browser ERROR   ./src/components/Hero.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | ("use client");
   4 |
-  5 | export default function Home() {
-  6 |   return (
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:41:31.581] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:23.633] Browser ERROR   ./src/components/Hero.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |                     ^^^^^^
+  2 |
+  3 | ("use client");
   4 |
-  5 | export default function Home() {
-  6 |   return (
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:41:31.583] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:23.633] Browser ERROR   ./src/components/Hero.tsx:1:29
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |                             ^^^^^^^^
+  2 |
+  3 | ("use client");
   4 |
-  5 | export default function Home() {
-  6 |   return (
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:41:31.590] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:30.204] Server  ERROR    ⨯ ./src/components/Hero.tsx:3:1
+Ecmascript file had an error
+  1 | import { useEffect, useRef, useState } from "react";
+  2 |
+> 3 | ("use client");
+    | ^^^^^^^^^^^^^^^
   4 |
-  5 | export default function Home() {
-  6 |   return (
+  5 | export default function Hero() {
+  6 |   const [isVisible, setIsVisible] = useState(false);
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
 
 
-https://nextjs.org/docs/messages/module-not-found
 
-
-[00:41:31.597] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+./src/components/Hero.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | ("use client");
   4 |
-  5 | export default function Home() {
-  6 |   return (
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-
-https://nextjs.org/docs/messages/module-not-found
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
 
-[00:41:31.600] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/Hero.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |                     ^^^^^^
+  2 |
+  3 | ("use client");
   4 |
-  5 | export default function Home() {
-  6 |   return (
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-
-https://nextjs.org/docs/messages/module-not-found
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
 
-[00:41:31.602] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/Hero.tsx:1:29
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |                             ^^^^^^^^
+  2 |
+  3 | ("use client");
   4 |
-  5 | export default function Home() {
-  6 |   return (
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-
-https://nextjs.org/docs/messages/module-not-found
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
 
-[00:41:31.604] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+
+
+[00:09:30.556] Browser ERROR   uncaughtError: Error: ./src/components/Hero.tsx:3:1
+Ecmascript file had an error
+  1 | import { useEffect, useRef, useState } from "react";
+  2 |
+> 3 | ("use client");
+    | ^^^^^^^^^^^^^^^
   4 |
-  5 | export default function Home() {
-  6 |   return (
+  5 | export default function Hero() {
+  6 |   const [isVisible, setIsVisible] = useState(false);
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
 
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:41:31.606] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[00:09:30.759] Browser ERROR   ./src/components/Hero.tsx:3:1
+Ecmascript file had an error
+  1 | import { useEffect, useRef, useState } from "react";
+  2 |
+> 3 | ("use client");
+    | ^^^^^^^^^^^^^^^
   4 |
-  5 | export default function Home() {
-  6 |   return (
+  5 | export default function Hero() {
+  6 |   const [isVisible, setIsVisible] = useState(false);
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
 
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:41:31.606] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:30.759] Browser ERROR   ./src/components/Hero.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | ("use client");
   4 |
-  5 | export default function Home() {
-  6 |   return (
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:41:31.730] Browser ERROR   ./src/app/page.tsx:3:1
-Module not found: Can't resolve '@/components/Footer'
-  1 | import Hero from "@/components/Hero";
-  2 | import GProject from "@/components/gProject";
-> 3 | import Footer from "@/components/Footer";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:30.759] Browser ERROR   ./src/components/Hero.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |                     ^^^^^^
+  2 |
+  3 | ("use client");
   4 |
-  5 | export default function Home() {
-  6 |   return (
 
-Import map: aliased to relative './src/components/Footer' inside of [project]/
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:40.536] Server  LOG      ✓ Compiled in 292ms
-[00:42:38.339] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:30.759] Browser ERROR   ./src/components/Hero.tsx:1:29
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |                             ^^^^^^^^
+  2 |
+  3 | ("use client");
+  4 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:30.759] Browser ERROR   ./src/components/Hero.tsx:3:1
+Ecmascript file had an error
+  1 | import { useEffect, useRef, useState } from "react";
+  2 |
+> 3 | ("use client");
+    | ^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function Hero() {
+  6 |   const [isVisible, setIsVisible] = useState(false);
+
+The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:30.759] Browser ERROR   ./src/components/Hero.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |          ^^^^^^^^^
+  2 |
+  3 | ("use client");
+  4 |
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:30.759] Browser ERROR   ./src/components/Hero.tsx:1:21
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |                     ^^^^^^
+  2 |
+  3 | ("use client");
+  4 |
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:30.759] Browser ERROR   ./src/components/Hero.tsx:1:29
+Ecmascript file had an error
+> 1 | import { useEffect, useRef, useState } from "react";
+    |                             ^^^^^^^^
+  2 |
+  3 | ("use client");
+  4 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.tsx
+    ./src/app/page.tsx
+[00:09:45.141] Server  LOG      ✓ Compiled in 1623ms
+[00:09:45.504] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:33.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:20.818] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:04.339] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:15:06.981] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:07.034] Server  LOG      ✓ Compiled in 13ms
+[00:15:22.493] Server  LOG      ✓ Compiled in 186ms
+[00:15:34.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:51.853] Server  LOG      ✓ Compiled in 308ms
+[00:16:06.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:22.751] Server  LOG      ✓ Compiled in 247ms
+[00:17:24.605] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:55.226] Server  LOG      ✓ Compiled in 169ms
+[00:17:56.462] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:31.645] Server  LOG      ✓ Compiled in 176ms
+[00:18:41.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:42.386] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:43.341] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:38.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:16.104] Server  LOG      ✓ Compiled in 371ms
+[00:20:40.852] Server  LOG      ✓ Compiled in 120ms
+[00:21:10.578] Server  LOG      ✓ Compiled in 396ms
+[00:21:36.962] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:08.945] Server  LOG      ✓ Compiled in 437ms
+[00:22:09.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
