@@ -59,23 +59,31 @@ __turbopack_context__.s([
 const Projekte = [
     {
         id: 1,
-        title: "SChulproject Website",
-        description: "Eine Website für ein Schulprojekt ueber Geschichte Franzoesisch.",
-        status: "In Arbeit",
-        projectUrl: "https://project-geschichte-franzoesisch.vercel.app/"
+        title: "School Project Website",
+        description: "A website for a school project about French history, designed to present historical information and educational content.",
+        status: "in-progress",
+        projectUrl: "/"
     },
     {
         id: 2,
         title: "Invoice Web App",
-        description: " Eine Web App die um Rechnungen und Invoices Geht ",
-        status: "In Arbeit",
+        description: "A web application for managing invoices and billing processes, helping users track and organize their financial documents.",
+        status: "in-progress",
         projectUrl: "/"
     },
     {
         id: 3,
         title: "Savalion Web App",
-        description: "Eine Web App die Comunacation und Transpraen schaffen soll fuer Firmen in Afrika",
-        status: "In Arbeit"
+        description: "A web application designed to improve communication and transparency for companies in Africa, facilitating better business operations.",
+        status: "in-progress",
+        projectUrl: "/"
+    },
+    {
+        id: 4,
+        title: "AI App",
+        description: "A context-aware AI application that focuses on understanding the user through natural language processing and personalized interactions.",
+        status: "planned",
+        projectUrl: "/"
     }
 ];
 }),
@@ -114,9 +122,9 @@ function ProjectCard({ project }) {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: `px-7 py-2.5 rounded-full text-sm font-medium backdrop-blur-sm
-                ${status === "Abgeschlossen" ? "bg-green-500/20 text-green-400 border border-green-500/30" : ""}
-                ${status === "In Arbeit" ? "bg-yellow-500/20 text-yellow-400 border border-yellow-500/30" : ""}
-                ${status === "Geplant" ? "bg-blue-500/20 text-blue-400 border border-blue-500/30" : ""}
+                ${status === "completed" ? "bg-green-500/20 text-green-400 border border-green-500/30" : ""}
+                ${status === "in-progress" ? "bg-yellow-500/20 text-yellow-400 border border-yellow-500/30" : ""}
+                ${status === "planned" ? "bg-blue-500/20 text-blue-400 border border-blue-500/30" : ""}
             `,
                         children: status
                     }, void 0, false, {
@@ -170,7 +178,7 @@ function GProject() {
             className: "max-w-7xl mx-auto",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-5xl font-bold text-white text-center mb-12",
+                    className: "text-5xl font-bold text-white text-center mb-17",
                     children: "Meine Projekte"
                 }, void 0, false, {
                     fileName: "[project]/src/components/gProject.tsx",

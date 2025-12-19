@@ -2,6 +2,6 @@ export interface Project {
   id: number;
   title: string;
   description: string;
-  status: "In Arbeit" | "Abgeschlossen" | "Geplant";
+  status: "in-progress" | "completed" | "planned";
   projectUrl?: string;
 }

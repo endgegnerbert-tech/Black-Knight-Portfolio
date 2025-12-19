@@ -17,17 +17,17 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <span
           className={`px-7 py-2.5 rounded-full text-sm font-medium backdrop-blur-sm
                 ${
-                  status === "Abgeschlossen"
+                  status === "completed"
                     ? "bg-green-500/20 text-green-400 border border-green-500/30"
                     : ""
                 }
                 ${
-                  status === "In Arbeit"
+                  status === "in-progress"
                     ? "bg-yellow-500/20 text-yellow-400 border border-yellow-500/30"
                     : ""
                 }
                 ${
-                  status === "Geplant"
+                  status === "planned"
                     ? "bg-blue-500/20 text-blue-400 border border-blue-500/30"
                     : ""
                 }

@@ -1,4 +1,162 @@
 (globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/src/components/Contact.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Contact
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+;
+;
+function Contact() {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(9);
+    if ($[0] !== "8f26bdede760d180a8fe41ae5e9f3f41fc19c8a5023d97659b2817fa161dfafb") {
+        for(let $i = 0; $i < 9; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "8f26bdede760d180a8fe41ae5e9f3f41fc19c8a5023d97659b2817fa161dfafb";
+    }
+    const [showContact, setShowContact] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    let t0;
+    let t1;
+    if ($[1] !== showContact) {
+        t0 = ({
+            "Contact[useEffect()]": ()=>{
+                const handleScroll = {
+                    "Contact[useEffect() > handleScroll]": ()=>{
+                        if (showContact) {
+                            setShowContact(false);
+                        }
+                    }
+                }["Contact[useEffect() > handleScroll]"];
+                window.addEventListener("scroll", handleScroll);
+                return ()=>window.removeEventListener("scroll", handleScroll);
+            }
+        })["Contact[useEffect()]"];
+        t1 = [
+            showContact
+        ];
+        $[1] = showContact;
+        $[2] = t0;
+        $[3] = t1;
+    } else {
+        t0 = $[2];
+        t1 = $[3];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t0, t1);
+    let t2;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            onClick: {
+                "Contact[<button>.onClick]": ()=>setShowContact(true)
+            }["Contact[<button>.onClick]"],
+            className: "px-6 py-3 bg-white text-black font-bold rounded-lg hover:bg-gray-200 transition",
+            children: "Contact Me"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Contact.tsx",
+            lineNumber: 39,
+            columnNumber: 10
+        }, this);
+        $[4] = t2;
+    } else {
+        t2 = $[4];
+    }
+    let t3;
+    if ($[5] !== showContact) {
+        t3 = showContact && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "fixed inset-0 bg-black bg-opacity-95 z-50 flex items-center justify-center animate-fadeIn",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-2xl mx-auto text-center px-4",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "text-5xl font-bold text-white mb-8",
+                        children: "Kontakt"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Contact.tsx",
+                        lineNumber: 48,
+                        columnNumber: 184
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-gray-400 mb-12",
+                        children: "Wenn you want to get in touch, feel free to reach out via email at"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Contact.tsx",
+                        lineNumber: 48,
+                        columnNumber: 247
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "mailto:einar.jaegereinar@icloud.com",
+                        className: "text-2xl text-blue-400 hover:text-blue-300 transition",
+                        children: "einar.jaegereinar@icloud.com"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Contact.tsx",
+                        lineNumber: 48,
+                        columnNumber: 352
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-gray-500 mt-4 text-sm",
+                        children: "I typically respond within 24-48 hours."
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Contact.tsx",
+                        lineNumber: 48,
+                        columnNumber: 496
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: {
+                            "Contact[<button>.onClick]": ()=>setShowContact(false)
+                        }["Contact[<button>.onClick]"],
+                        className: "mt-8 px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition",
+                        children: "Close"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Contact.tsx",
+                        lineNumber: 48,
+                        columnNumber: 581
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/Contact.tsx",
+                lineNumber: 48,
+                columnNumber: 132
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/Contact.tsx",
+            lineNumber: 48,
+            columnNumber: 25
+        }, this);
+        $[5] = showContact;
+        $[6] = t3;
+    } else {
+        t3 = $[6];
+    }
+    let t4;
+    if ($[7] !== t3) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                t2,
+                t3
+            ]
+        }, void 0, true);
+        $[7] = t3;
+        $[8] = t4;
+    } else {
+        t4 = $[8];
+    }
+    return t4;
+}
+_s(Contact, "MkZaH+PeJ5h8OBR9R2CIgGt38Gs=");
+_c = Contact;
+var _c;
+__turbopack_context__.k.register(_c, "Contact");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
 "[project]/src/components/Hero.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -9,19 +167,21 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Contact$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Contact.tsx [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
+;
 function Hero() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(18);
-    if ($[0] !== "d9f8d8d65a198a7168c3967576442646b2d7c491c7fe93f5b4fa4401ab52dd2d") {
-        for(let $i = 0; $i < 18; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(19);
+    if ($[0] !== "9667fff87a848735f26b9fa1a827c4331557b0b3e08ea6af7697d383a4d81f5b") {
+        for(let $i = 0; $i < 19; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "d9f8d8d65a198a7168c3967576442646b2d7c491c7fe93f5b4fa4401ab52dd2d";
+        $[0] = "9667fff87a848735f26b9fa1a827c4331557b0b3e08ea6af7697d383a4d81f5b";
     }
     const [isVisible, setIsVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [showContact, setShowContact] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -90,7 +250,7 @@ function Hero() {
                     children: "Black Knights Portfolio"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Hero.tsx",
-                    lineNumber: 70,
+                    lineNumber: 71,
                     columnNumber: 32
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -98,13 +258,13 @@ function Hero() {
                     children: "Creative Developer 17 Years"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Hero.tsx",
-                    lineNumber: 70,
+                    lineNumber: 71,
                     columnNumber: 100
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 70,
+            lineNumber: 71,
             columnNumber: 10
         }, this);
         $[6] = t4;
@@ -118,7 +278,7 @@ function Hero() {
             children: "Passionate Full-Stack Developer from Starnberg, Germany, blending AI tools like Claude with hands-on coding to build innovative web apps that solve real problems. I dive deep into projects every day—from sleek user interfaces to secure backends—while balancing intense Judo training and strength workouts that keep my focus sharp during long coding sessions. As a high school student juggling classes and part-time work, I turn ideas into live products through curiosity and relentless practice, always aiming for clean, scalable results that just work."
         }, void 0, false, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 78,
+            lineNumber: 79,
             columnNumber: 10
         }, this);
         $[7] = t6;
@@ -134,7 +294,7 @@ function Hero() {
             children: t6
         }, void 0, false, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 85,
+            lineNumber: 86,
             columnNumber: 10
         }, this);
         $[8] = t5;
@@ -152,7 +312,7 @@ function Hero() {
             children: "Contact Me"
         }, void 0, false, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 93,
+            lineNumber: 94,
             columnNumber: 10
         }, this);
         $[10] = t8;
@@ -170,7 +330,7 @@ function Hero() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 102,
+            lineNumber: 103,
             columnNumber: 10
         }, this);
         $[11] = t7;
@@ -181,25 +341,25 @@ function Hero() {
     let t10;
     if ($[13] !== showContact) {
         t10 = showContact && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "fixed inset-0 bg-black bg-opacity-98 z-50 flex items-center justify-center animate-fadeIn px-8",
+            className: "fixed inset-0 bg-black bg-opacity-98 z-50 flex items-center justify-center animate-fadeIn",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-2xl mx-auto text-center px-8",
+                className: "max-w-2xl mx-auto text-center px-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: "text-5xl font-bold text-white mb-8",
                         children: "Kontakt"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 110,
-                        columnNumber: 190
+                        lineNumber: 111,
+                        columnNumber: 185
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-gray-400 mb-12",
                         children: "Wenn you want to get in touch, feel free to reach out via email at"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 110,
-                        columnNumber: 253
+                        lineNumber: 111,
+                        columnNumber: 248
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "mailto:einar.jaegereinar@icloud.com",
@@ -207,40 +367,16 @@ function Hero() {
                         children: "einar.jaegereinar@icloud.com"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 110,
-                        columnNumber: 358
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-gray-400 mt-8 mb-4",
-                        children: [
-                            "Here's my",
-                            " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://github.com/endgegnerbert-tech",
-                                className: "text-blue-400 hover:text-blue-300 transition underline",
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                                children: "GitHub"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 110,
-                                columnNumber: 565
-                            }, this),
-                            " ",
-                            "for more insight."
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 110,
-                        columnNumber: 512
+                        lineNumber: 111,
+                        columnNumber: 353
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-gray-500 mt-4 text-sm",
                         children: "I typically respond within 24-48 hours."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 110,
-                        columnNumber: 758
+                        lineNumber: 111,
+                        columnNumber: 507
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: {
@@ -250,18 +386,18 @@ function Hero() {
                         children: "Schließen"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 110,
-                        columnNumber: 843
+                        lineNumber: 111,
+                        columnNumber: 592
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 110,
-                columnNumber: 138
+                lineNumber: 111,
+                columnNumber: 133
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 110,
+            lineNumber: 111,
             columnNumber: 26
         }, this);
         $[13] = showContact;
@@ -270,26 +406,38 @@ function Hero() {
         t10 = $[14];
     }
     let t11;
-    if ($[15] !== t10 || $[16] !== t9) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Contact$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/components/Hero.tsx",
+            lineNumber: 121,
+            columnNumber: 11
+        }, this);
+        $[15] = t11;
+    } else {
+        t11 = $[15];
+    }
+    let t12;
+    if ($[16] !== t10 || $[17] !== t9) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             id: "hero",
             className: "min-h-screen flex items-center justify-center text-white px-4 relative z-10",
             children: [
                 t9,
-                t10
+                t10,
+                t11
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 120,
+            lineNumber: 128,
             columnNumber: 11
         }, this);
-        $[15] = t10;
-        $[16] = t9;
-        $[17] = t11;
+        $[16] = t10;
+        $[17] = t9;
+        $[18] = t12;
     } else {
-        t11 = $[17];
+        t12 = $[18];
     }
-    return t11;
+    return t12;
 }
 _s(Hero, "UbzVmJLsnLlH5NAzyE3z2rD3/JY=");
 _c = Hero;
@@ -412,4 +560,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=src_components_30b54972._.js.map
+//# sourceMappingURL=src_components_790cca5f._.js.map
