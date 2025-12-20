@@ -53,13 +53,11 @@ export default function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <p>
+          <p className="text-shadow-2xs">
             Passionate Full-Stack Developer from Starnberg, Germany, blending AI
             tools like Claude with hands-on coding to build innovative web apps
             that solve real problems. I dive deep into projects every day—from
-            sleek user interfaces to secure backends—while balancing intense
-            Judo training and strength workouts that keep my focus sharp during
-            long coding sessions. As a high school student juggling classes and
+            sleek user interfaces to secure backends—while balancing my love for various sports like Tennis,Sailing,Judo. As a high school student juggling classes and
             part-time work, I turn ideas into live products through curiosity
             and relentless practice, always aiming for clean, scalable results
             that just work.
@@ -104,13 +102,7 @@ export default function Hero() {
             <p className="text-gray-500 mt-4 text-sm">
               I typically respond within 24-48 hours.
             </p>
-            <button
-              onClick={() => setShowContact(false)}
-              className="mt-8 px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition"
-            >
-              Schließen
-            </button>
-          </div>
+            </div>
         </div>
       )}
     </section>

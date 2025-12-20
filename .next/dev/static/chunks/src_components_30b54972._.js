@@ -17,11 +17,11 @@ var _s = __turbopack_context__.k.signature();
 function Hero() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(18);
-    if ($[0] !== "d9f8d8d65a198a7168c3967576442646b2d7c491c7fe93f5b4fa4401ab52dd2d") {
+    if ($[0] !== "61d3c72516bcf893c47b33549e934645f17663b27276d7da093b8510ba9fcc58") {
         for(let $i = 0; $i < 18; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "d9f8d8d65a198a7168c3967576442646b2d7c491c7fe93f5b4fa4401ab52dd2d";
+        $[0] = "61d3c72516bcf893c47b33549e934645f17663b27276d7da093b8510ba9fcc58";
     }
     const [isVisible, setIsVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [showContact, setShowContact] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -115,7 +115,8 @@ function Hero() {
     let t6;
     if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            children: "Passionate Full-Stack Developer from Starnberg, Germany, blending AI tools like Claude with hands-on coding to build innovative web apps that solve real problems. I dive deep into projects every day—from sleek user interfaces to secure backends—while balancing intense Judo training and strength workouts that keep my focus sharp during long coding sessions. As a high school student juggling classes and part-time work, I turn ideas into live products through curiosity and relentless practice, always aiming for clean, scalable results that just work."
+            className: "text-shadow-2xs",
+            children: "Passionate Full-Stack Developer from Starnberg, Germany, blending AI tools like Claude with hands-on coding to build innovative web apps that solve real problems. I dive deep into projects every day—from sleek user interfaces to secure backends—while balancing my love for various sports like Tennis,Sailing,Judo. As a high school student juggling classes and part-time work, I turn ideas into live products through curiosity and relentless practice, always aiming for clean, scalable results that just work."
         }, void 0, false, {
             fileName: "[project]/src/components/Hero.tsx",
             lineNumber: 78,
@@ -202,9 +203,9 @@ function Hero() {
                         columnNumber: 253
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "mailto:einar.jaegereinar@icloud.com",
+                        href: "mailto:einar@black-knight.dev",
                         className: "text-2xl text-blue-400 hover:text-blue-300 transition underline",
-                        children: "einar.jaegereinar@icloud.com"
+                        children: "einar@black-knight.dev"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
                         lineNumber: 110,
@@ -224,7 +225,7 @@ function Hero() {
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
                                 lineNumber: 110,
-                                columnNumber: 565
+                                columnNumber: 553
                             }, this),
                             " ",
                             "for more insight."
@@ -232,7 +233,7 @@ function Hero() {
                     }, void 0, true, {
                         fileName: "[project]/src/components/Hero.tsx",
                         lineNumber: 110,
-                        columnNumber: 512
+                        columnNumber: 500
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-gray-500 mt-4 text-sm",
@@ -240,18 +241,7 @@ function Hero() {
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
                         lineNumber: 110,
-                        columnNumber: 758
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        onClick: {
-                            "Hero[<button>.onClick]": ()=>setShowContact(false)
-                        }["Hero[<button>.onClick]"],
-                        className: "mt-8 px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition",
-                        children: "Schließen"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 110,
-                        columnNumber: 843
+                        columnNumber: 746
                     }, this)
                 ]
             }, void 0, true, {
@@ -280,7 +270,7 @@ function Hero() {
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 120,
+            lineNumber: 118,
             columnNumber: 11
         }, this);
         $[15] = t10;
