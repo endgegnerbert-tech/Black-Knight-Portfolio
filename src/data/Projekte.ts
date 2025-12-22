@@ -17,10 +17,10 @@ export const Projekte: Project[] = [
     },
     {
         id: 3,
-        title:"Savalion Web App",
-        description:"A web application designed to improve communication and transparency for companies in Africa, facilitating better business operations.",
-        status:"in-progress",
-        projectUrl:"/"
+        title:"Cropclear App",
+        description:"A web application designed to improve communication and transparency for companies in Africa, facilitating better business operations.The project is now a closed beta test when you wnat more information please conntact me via email.",
+        status:"beta-test",
+        projectUrl:"https://savalion-app-6vzc.vercel.app"
     },
     {
         id: 4,
