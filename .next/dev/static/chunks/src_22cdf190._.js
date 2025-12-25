@@ -57,7 +57,7 @@ const Projekte = [
         description: "A web application designed to improve communication and transparency for companies in Africa, facilitating better business operations. The project is now in closed beta test.",
         longDescription: "Cropclear is an innovative platform built to enhance transparency and communication within agricultural supply chains in Africa. The application connects farmers, distributors, and retailers, providing real-time tracking and verification of agricultural products from farm to market.",
         status: "beta-test",
-        projectUrl: "https://savalion-app-6vzc.vercel.app",
+        projectUrl: "https://cropclear.vercel.app",
         techStack: [
             "Next.js",
             "Supabase",
@@ -73,14 +73,14 @@ const Projekte = [
             "Mobile-first responsive design"
         ],
         screenshots: [
-            "/screenshots/cropclear-1.png",
-            "/screenshots/cropclear-2.png",
-            "/screenshots/cropclear-3.png",
-            "/screenshots/cropclear-4.png",
-            "/screenshots/cropclear-5.png",
-            "/screenshots/cropclear-6.png",
-            "/screenshots/cropclear-7.png",
-            "/screenshots/cropclear-8.png"
+            "/screenshots/cropclear1.png",
+            "/screenshots/cropclear2.png",
+            "/screenshots/cropclear3.png",
+            "/screenshots/cropclear4.png",
+            "/screenshots/cropclear5.png",
+            "/screenshots/cropclear6.png",
+            "/screenshots/cropclear7.png",
+            "/screenshots/cropclear8.png"
         ]
     },
     {
@@ -111,7 +111,7 @@ const Projekte = [
         description: "A minimalist scoreboard app built to strengthen fundamental web development skills and demonstrate proficiency without AI assistance.",
         longDescription: "A lightweight and interactive scoreboard project inspired by a Scrimba course, developed entirely without AI assistance to deepen core front-end understanding. This project focuses on mastering JavaScript logic, DOM manipulation, and layout structure using only HTML, CSS, and JavaScript. It serves as a practical demonstration of solid technical fundamentals and independent coding ability beyond AI-driven development.",
         status: "completed",
-        projectUrl: "/",
+        projectUrl: "https://score-board-smoky.vercel.app",
         techStack: [
             "HTML",
             "CSS",
@@ -139,18 +139,23 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
 function Sidebar(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(43);
-    if ($[0] !== "7da3da8f4cf27b2b05dae20ceab3ba89323fe24663903d9f2473307db04c52e9") {
-        for(let $i = 0; $i < 43; $i += 1){
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(66);
+    if ($[0] !== "120b93d92f3af50fef422a4bcd654cade7d049441be5220e8682c0c3714bc2df") {
+        for(let $i = 0; $i < 66; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "7da3da8f4cf27b2b05dae20ceab3ba89323fe24663903d9f2473307db04c52e9";
+        $[0] = "120b93d92f3af50fef422a4bcd654cade7d049441be5220e8682c0c3714bc2df";
     }
     const { activeView, onViewChange, onLogoClick } = t0;
+    const [mobileMenuOpen, setMobileMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     let t1;
     if ($[1] !== onLogoClick || $[2] !== onViewChange) {
         t1 = ({
@@ -160,6 +165,7 @@ function Sidebar(t0) {
                 } else {
                     onViewChange("about");
                 }
+                setMobileMenuOpen(false);
             }
         })["Sidebar[handleLogoClick]"];
         $[1] = onLogoClick;
@@ -170,245 +176,510 @@ function Sidebar(t0) {
     }
     const handleLogoClick = t1;
     let t2;
+    if ($[4] !== onViewChange) {
+        t2 = ({
+            "Sidebar[handleNavClick]": (view)=>{
+                onViewChange(view);
+                setMobileMenuOpen(false);
+            }
+        })["Sidebar[handleNavClick]"];
+        $[4] = onViewChange;
+        $[5] = t2;
+    } else {
+        t2 = $[5];
+    }
+    const handleNavClick = t2;
     let t3;
-    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-            className: "text-3xl md:text-4xl font-light tracking-tight mb-2",
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+            className: "text-xl font-light tracking-tight",
             children: "Black Knight"
         }, void 0, false, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 43,
+            lineNumber: 59,
             columnNumber: 10
         }, this);
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        $[6] = t3;
+    } else {
+        t3 = $[6];
+    }
+    let t4;
+    if ($[7] !== handleLogoClick) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            onClick: handleLogoClick,
+            className: "text-left hover:opacity-70 transition-opacity",
+            children: t3
+        }, void 0, false, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 66,
+            columnNumber: 10
+        }, this);
+        $[7] = handleLogoClick;
+        $[8] = t4;
+    } else {
+        t4 = $[8];
+    }
+    let t5;
+    if ($[9] !== mobileMenuOpen) {
+        t5 = ({
+            "Sidebar[<button>.onClick]": ()=>setMobileMenuOpen(!mobileMenuOpen)
+        })["Sidebar[<button>.onClick]"];
+        $[9] = mobileMenuOpen;
+        $[10] = t5;
+    } else {
+        t5 = $[10];
+    }
+    let t6;
+    if ($[11] !== mobileMenuOpen) {
+        t6 = mobileMenuOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            className: "w-6 h-6",
+            fill: "none",
+            stroke: "currentColor",
+            viewBox: "0 0 24 24",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: 1.5,
+                d: "M6 18L18 6M6 6l12 12"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Sidebar.tsx",
+                lineNumber: 84,
+                columnNumber: 106
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 84,
+            columnNumber: 27
+        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            className: "w-6 h-6",
+            fill: "none",
+            stroke: "currentColor",
+            viewBox: "0 0 24 24",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: 1.5,
+                d: "M4 6h16M4 12h16M4 18h16"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Sidebar.tsx",
+                lineNumber: 84,
+                columnNumber: 290
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 84,
+            columnNumber: 211
+        }, this);
+        $[11] = mobileMenuOpen;
+        $[12] = t6;
+    } else {
+        t6 = $[12];
+    }
+    let t7;
+    if ($[13] !== t5 || $[14] !== t6) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            onClick: t5,
+            className: "p-2 text-gray-400 hover:text-white transition-colors",
+            "aria-label": "Toggle menu",
+            children: t6
+        }, void 0, false, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 92,
+            columnNumber: 10
+        }, this);
+        $[13] = t5;
+        $[14] = t6;
+        $[15] = t7;
+    } else {
+        t7 = $[15];
+    }
+    let t8;
+    if ($[16] !== t4 || $[17] !== t7) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "md:hidden fixed top-0 left-0 right-0 z-40 bg-black/90 backdrop-blur-sm border-b border-gray-800/50 px-4 py-4 flex items-center justify-between",
+            children: [
+                t4,
+                t7
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 101,
+            columnNumber: 10
+        }, this);
+        $[16] = t4;
+        $[17] = t7;
+        $[18] = t8;
+    } else {
+        t8 = $[18];
+    }
+    let t9;
+    if ($[19] !== activeView || $[20] !== handleNavClick || $[21] !== mobileMenuOpen) {
+        t9 = mobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "md:hidden fixed inset-0 z-30 bg-black/95 pt-20 px-6 animate-fadeIn",
+            onClick: {
+                "Sidebar[<div>.onClick]": ()=>setMobileMenuOpen(false)
+            }["Sidebar[<div>.onClick]"],
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                    className: "space-y-4",
+                    onClick: _SidebarNavOnClick,
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: {
+                                "Sidebar[<button>.onClick]": ()=>handleNavClick("about")
+                            }["Sidebar[<button>.onClick]"],
+                            className: `block text-left w-full py-3 text-2xl transition-colors ${activeView === "about" ? "text-white" : "text-gray-500"}`,
+                            children: [
+                                activeView === "about" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "inline-block w-2 h-2 bg-white rounded-full mr-4"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Sidebar.tsx",
+                                    lineNumber: 114,
+                                    columnNumber: 196
+                                }, this),
+                                "About"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/Sidebar.tsx",
+                            lineNumber: 112,
+                            columnNumber: 90
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: {
+                                "Sidebar[<button>.onClick]": ()=>handleNavClick("projects")
+                            }["Sidebar[<button>.onClick]"],
+                            className: `block text-left w-full py-3 text-2xl transition-colors ${activeView === "projects" || activeView === "details" ? "text-white" : "text-gray-500"}`,
+                            children: [
+                                (activeView === "projects" || activeView === "details") && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "inline-block w-2 h-2 bg-white rounded-full mr-4"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Sidebar.tsx",
+                                    lineNumber: 116,
+                                    columnNumber: 260
+                                }, this),
+                                "Projects"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/Sidebar.tsx",
+                            lineNumber: 114,
+                            columnNumber: 279
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: {
+                                "Sidebar[<button>.onClick]": ()=>handleNavClick("contact")
+                            }["Sidebar[<button>.onClick]"],
+                            className: `block text-left w-full py-3 text-2xl transition-colors ${activeView === "contact" ? "text-white" : "text-gray-500"}`,
+                            children: [
+                                activeView === "contact" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "inline-block w-2 h-2 bg-white rounded-full mr-4"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Sidebar.tsx",
+                                    lineNumber: 118,
+                                    columnNumber: 200
+                                }, this),
+                                "Contact"
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/Sidebar.tsx",
+                            lineNumber: 116,
+                            columnNumber: 346
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Sidebar.tsx",
+                    lineNumber: 112,
+                    columnNumber: 34
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "absolute bottom-8 left-6 text-gray-600 text-xs space-y-2",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            children: "© 2025 Black Knight"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Sidebar.tsx",
+                            lineNumber: 118,
+                            columnNumber: 365
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            children: [
+                                "Design inspired by",
+                                " ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "https://p5aholic.me",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "text-gray-500 hover:text-white transition-colors",
+                                    children: "Keita Yamada"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Sidebar.tsx",
+                                    lineNumber: 118,
+                                    columnNumber: 417
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/Sidebar.tsx",
+                            lineNumber: 118,
+                            columnNumber: 391
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Sidebar.tsx",
+                    lineNumber: 118,
+                    columnNumber: 291
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 110,
+            columnNumber: 28
+        }, this);
+        $[19] = activeView;
+        $[20] = handleNavClick;
+        $[21] = mobileMenuOpen;
+        $[22] = t9;
+    } else {
+        t9 = $[22];
+    }
+    let t10;
+    let t11;
+    if ($[23] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+            className: "text-3xl lg:text-4xl font-light tracking-tight mb-2",
+            children: "Black Knight"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 129,
+            columnNumber: 11
+        }, this);
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-gray-500 text-sm",
             children: "Developer & Designer"
         }, void 0, false, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 44,
-            columnNumber: 10
+            lineNumber: 130,
+            columnNumber: 11
         }, this);
-        $[4] = t2;
-        $[5] = t3;
+        $[23] = t10;
+        $[24] = t11;
     } else {
-        t2 = $[4];
-        t3 = $[5];
+        t10 = $[23];
+        t11 = $[24];
     }
-    let t4;
-    if ($[6] !== handleLogoClick) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+    let t12;
+    if ($[25] !== handleLogoClick) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             onClick: handleLogoClick,
             className: "text-left hover:opacity-70 transition-opacity",
             children: [
-                t2,
-                t3
+                t10,
+                t11
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 53,
-            columnNumber: 10
-        }, this);
-        $[6] = handleLogoClick;
-        $[7] = t4;
-    } else {
-        t4 = $[7];
-    }
-    let t5;
-    if ($[8] !== onViewChange) {
-        t5 = ({
-            "Sidebar[<button>.onClick]": ()=>onViewChange("about")
-        })["Sidebar[<button>.onClick]"];
-        $[8] = onViewChange;
-        $[9] = t5;
-    } else {
-        t5 = $[9];
-    }
-    const t6 = `block text-left w-full py-2 transition-colors ${activeView === "about" ? "text-white" : "text-gray-500 hover:text-gray-300"}`;
-    let t7;
-    if ($[10] !== activeView) {
-        t7 = activeView === "about" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "inline-block w-2 h-2 bg-white rounded-full mr-3"
-        }, void 0, false, {
-            fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 72,
-            columnNumber: 36
-        }, this);
-        $[10] = activeView;
-        $[11] = t7;
-    } else {
-        t7 = $[11];
-    }
-    let t8;
-    if ($[12] !== t5 || $[13] !== t6 || $[14] !== t7) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            onClick: t5,
-            className: t6,
-            children: [
-                t7,
-                "About"
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 80,
-            columnNumber: 10
-        }, this);
-        $[12] = t5;
-        $[13] = t6;
-        $[14] = t7;
-        $[15] = t8;
-    } else {
-        t8 = $[15];
-    }
-    let t9;
-    if ($[16] !== onViewChange) {
-        t9 = ({
-            "Sidebar[<button>.onClick]": ()=>onViewChange("projects")
-        })["Sidebar[<button>.onClick]"];
-        $[16] = onViewChange;
-        $[17] = t9;
-    } else {
-        t9 = $[17];
-    }
-    const t10 = `block text-left w-full py-2 transition-colors ${activeView === "projects" || activeView === "details" ? "text-white" : "text-gray-500 hover:text-gray-300"}`;
-    let t11;
-    if ($[18] !== activeView) {
-        t11 = (activeView === "projects" || activeView === "details") && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "inline-block w-2 h-2 bg-white rounded-full mr-3"
-        }, void 0, false, {
-            fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 101,
-            columnNumber: 70
-        }, this);
-        $[18] = activeView;
-        $[19] = t11;
-    } else {
-        t11 = $[19];
-    }
-    let t12;
-    if ($[20] !== t10 || $[21] !== t11 || $[22] !== t9) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            onClick: t9,
-            className: t10,
-            children: [
-                t11,
-                "Projects"
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 109,
+            lineNumber: 139,
             columnNumber: 11
         }, this);
-        $[20] = t10;
-        $[21] = t11;
-        $[22] = t9;
-        $[23] = t12;
+        $[25] = handleLogoClick;
+        $[26] = t12;
     } else {
-        t12 = $[23];
+        t12 = $[26];
     }
     let t13;
-    if ($[24] !== onViewChange) {
+    if ($[27] !== onViewChange) {
         t13 = ({
-            "Sidebar[<button>.onClick]": ()=>onViewChange("contact")
+            "Sidebar[<button>.onClick]": ()=>onViewChange("about")
         })["Sidebar[<button>.onClick]"];
-        $[24] = onViewChange;
-        $[25] = t13;
+        $[27] = onViewChange;
+        $[28] = t13;
     } else {
-        t13 = $[25];
+        t13 = $[28];
     }
-    const t14 = `block text-left w-full py-2 transition-colors ${activeView === "contact" ? "text-white" : "text-gray-500 hover:text-gray-300"}`;
+    const t14 = `block text-left w-full py-2 transition-colors ${activeView === "about" ? "text-white" : "text-gray-500 hover:text-gray-300"}`;
     let t15;
-    if ($[26] !== activeView) {
-        t15 = activeView === "contact" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+    if ($[29] !== activeView) {
+        t15 = activeView === "about" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             className: "inline-block w-2 h-2 bg-white rounded-full mr-3"
         }, void 0, false, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 130,
-            columnNumber: 39
+            lineNumber: 158,
+            columnNumber: 37
         }, this);
-        $[26] = activeView;
-        $[27] = t15;
+        $[29] = activeView;
+        $[30] = t15;
     } else {
-        t15 = $[27];
+        t15 = $[30];
     }
     let t16;
-    if ($[28] !== t13 || $[29] !== t14 || $[30] !== t15) {
+    if ($[31] !== t13 || $[32] !== t14 || $[33] !== t15) {
         t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             onClick: t13,
             className: t14,
             children: [
                 t15,
+                "About"
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 166,
+            columnNumber: 11
+        }, this);
+        $[31] = t13;
+        $[32] = t14;
+        $[33] = t15;
+        $[34] = t16;
+    } else {
+        t16 = $[34];
+    }
+    let t17;
+    if ($[35] !== onViewChange) {
+        t17 = ({
+            "Sidebar[<button>.onClick]": ()=>onViewChange("projects")
+        })["Sidebar[<button>.onClick]"];
+        $[35] = onViewChange;
+        $[36] = t17;
+    } else {
+        t17 = $[36];
+    }
+    const t18 = `block text-left w-full py-2 transition-colors ${activeView === "projects" || activeView === "details" ? "text-white" : "text-gray-500 hover:text-gray-300"}`;
+    let t19;
+    if ($[37] !== activeView) {
+        t19 = (activeView === "projects" || activeView === "details") && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "inline-block w-2 h-2 bg-white rounded-full mr-3"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 187,
+            columnNumber: 70
+        }, this);
+        $[37] = activeView;
+        $[38] = t19;
+    } else {
+        t19 = $[38];
+    }
+    let t20;
+    if ($[39] !== t17 || $[40] !== t18 || $[41] !== t19) {
+        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            onClick: t17,
+            className: t18,
+            children: [
+                t19,
+                "Projects"
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 195,
+            columnNumber: 11
+        }, this);
+        $[39] = t17;
+        $[40] = t18;
+        $[41] = t19;
+        $[42] = t20;
+    } else {
+        t20 = $[42];
+    }
+    let t21;
+    if ($[43] !== onViewChange) {
+        t21 = ({
+            "Sidebar[<button>.onClick]": ()=>onViewChange("contact")
+        })["Sidebar[<button>.onClick]"];
+        $[43] = onViewChange;
+        $[44] = t21;
+    } else {
+        t21 = $[44];
+    }
+    const t22 = `block text-left w-full py-2 transition-colors ${activeView === "contact" ? "text-white" : "text-gray-500 hover:text-gray-300"}`;
+    let t23;
+    if ($[45] !== activeView) {
+        t23 = activeView === "contact" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "inline-block w-2 h-2 bg-white rounded-full mr-3"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Sidebar.tsx",
+            lineNumber: 216,
+            columnNumber: 39
+        }, this);
+        $[45] = activeView;
+        $[46] = t23;
+    } else {
+        t23 = $[46];
+    }
+    let t24;
+    if ($[47] !== t21 || $[48] !== t22 || $[49] !== t23) {
+        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            onClick: t21,
+            className: t22,
+            children: [
+                t23,
                 "Contact"
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 138,
+            lineNumber: 224,
             columnNumber: 11
         }, this);
-        $[28] = t13;
-        $[29] = t14;
-        $[30] = t15;
-        $[31] = t16;
+        $[47] = t21;
+        $[48] = t22;
+        $[49] = t23;
+        $[50] = t24;
     } else {
-        t16 = $[31];
+        t24 = $[50];
     }
-    let t17;
-    if ($[32] !== t12 || $[33] !== t16 || $[34] !== t8) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+    let t25;
+    if ($[51] !== t16 || $[52] !== t20 || $[53] !== t24) {
+        t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
             className: "mt-12 space-y-1",
             children: [
-                t8,
-                t12,
-                t16
+                t16,
+                t20,
+                t24
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 148,
+            lineNumber: 234,
             columnNumber: 11
         }, this);
-        $[32] = t12;
-        $[33] = t16;
-        $[34] = t8;
-        $[35] = t17;
+        $[51] = t16;
+        $[52] = t20;
+        $[53] = t24;
+        $[54] = t25;
     } else {
-        t17 = $[35];
+        t25 = $[54];
     }
-    let t18;
-    if ($[36] !== t17 || $[37] !== t4) {
-        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t26;
+    if ($[55] !== t12 || $[56] !== t25) {
+        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: [
-                t4,
-                t17
+                t12,
+                t25
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 158,
+            lineNumber: 244,
             columnNumber: 11
         }, this);
-        $[36] = t17;
-        $[37] = t4;
-        $[38] = t18;
+        $[55] = t12;
+        $[56] = t25;
+        $[57] = t26;
     } else {
-        t18 = $[38];
+        t26 = $[57];
     }
-    let t19;
-    if ($[39] === Symbol.for("react.memo_cache_sentinel")) {
-        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+    let t27;
+    if ($[58] === Symbol.for("react.memo_cache_sentinel")) {
+        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             children: "© 2025 Black Knight"
         }, void 0, false, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 167,
+            lineNumber: 253,
             columnNumber: 11
         }, this);
-        $[39] = t19;
+        $[58] = t27;
     } else {
-        t19 = $[39];
+        t27 = $[58];
     }
-    let t20;
-    if ($[40] === Symbol.for("react.memo_cache_sentinel")) {
-        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t28;
+    if ($[59] === Symbol.for("react.memo_cache_sentinel")) {
+        t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "text-gray-600 text-xs space-y-2",
             children: [
-                t19,
+                t27,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: [
                         "Design inspired by",
@@ -421,46 +692,66 @@ function Sidebar(t0) {
                             children: "Keita Yamada"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Sidebar.tsx",
-                            lineNumber: 174,
+                            lineNumber: 260,
                             columnNumber: 91
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Sidebar.tsx",
-                    lineNumber: 174,
+                    lineNumber: 260,
                     columnNumber: 65
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 174,
+            lineNumber: 260,
             columnNumber: 11
         }, this);
-        $[40] = t20;
+        $[59] = t28;
     } else {
-        t20 = $[40];
+        t28 = $[59];
     }
-    let t21;
-    if ($[41] !== t18) {
-        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-64 md:w-80 shrink-0 p-8 md:p-12 flex flex-col justify-between border-r border-gray-800/50",
+    let t29;
+    if ($[60] !== t26) {
+        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "hidden md:flex w-64 lg:w-80 shrink-0 p-8 lg:p-12 flex-col justify-between border-r border-gray-800/50",
             children: [
-                t18,
-                t20
+                t26,
+                t28
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Sidebar.tsx",
-            lineNumber: 181,
+            lineNumber: 267,
             columnNumber: 11
         }, this);
-        $[41] = t18;
-        $[42] = t21;
+        $[60] = t26;
+        $[61] = t29;
     } else {
-        t21 = $[42];
+        t29 = $[61];
     }
-    return t21;
+    let t30;
+    if ($[62] !== t29 || $[63] !== t8 || $[64] !== t9) {
+        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                t8,
+                t9,
+                t29
+            ]
+        }, void 0, true);
+        $[62] = t29;
+        $[63] = t8;
+        $[64] = t9;
+        $[65] = t30;
+    } else {
+        t30 = $[65];
+    }
+    return t30;
 }
+_s(Sidebar, "d7gXMF6mPDUhHBNUSEb8mLK4AII=");
 _c = Sidebar;
+function _SidebarNavOnClick(e) {
+    return e.stopPropagation();
+}
 var _c;
 __turbopack_context__.k.register(_c, "Sidebar");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -481,25 +772,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function AboutView() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "fe9431b1c0769ab258799713e468c723b21b8d186dc81e8152009345915bfc40") {
+    if ($[0] !== "cec764510977fb06764248032895a09d4e6a7a41f6e8da0766d2e89db4ae7033") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "fe9431b1c0769ab258799713e468c723b21b8d186dc81e8152009345915bfc40";
+        $[0] = "cec764510977fb06764248032895a09d4e6a7a41f6e8da0766d2e89db4ae7033";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "h-full flex flex-col justify-center max-w-3xl animate-fadeIn",
+            className: "min-h-full flex flex-col justify-start md:justify-center max-w-3xl animate-fadeIn pt-4 pb-8 md:py-0",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-4xl md:text-5xl lg:text-6xl font-light mb-8 leading-tight",
+                    className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light mb-6 md:mb-8 leading-tight",
                     children: [
                         "Creative Developer",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/src/components/AboutView.tsx",
                             lineNumber: 14,
-                            columnNumber: 185
+                            columnNumber: 244
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "text-gray-500",
@@ -507,29 +798,29 @@ function AboutView() {
                         }, void 0, false, {
                             fileName: "[project]/src/components/AboutView.tsx",
                             lineNumber: 14,
-                            columnNumber: 191
+                            columnNumber: 250
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/AboutView.tsx",
                     lineNumber: 14,
-                    columnNumber: 88
+                    columnNumber: 127
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-gray-400 text-lg leading-relaxed mb-6",
+                    className: "text-gray-400 text-base md:text-lg leading-relaxed mb-4 md:mb-6",
                     children: "Passionate Full-Stack Developer from Starnberg, Germany, blending AI tools like Claude with hands-on coding to build innovative web apps that solve real problems."
                 }, void 0, false, {
                     fileName: "[project]/src/components/AboutView.tsx",
                     lineNumber: 14,
-                    columnNumber: 247
+                    columnNumber: 306
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-gray-500 leading-relaxed",
+                    className: "text-gray-500 text-sm md:text-base leading-relaxed",
                     children: "I dive deep into projects every day—from sleek user interfaces to secure backends—while balancing my love for various sports like Tennis, Sailing, Judo. As a high school student juggling classes and part-time work, I turn ideas into live products through curiosity and relentless practice, always aiming for clean, scalable results that just work."
                 }, void 0, false, {
                     fileName: "[project]/src/components/AboutView.tsx",
                     lineNumber: 14,
-                    columnNumber: 471
+                    columnNumber: 551
                 }, this)
             ]
         }, void 0, true, {
@@ -564,18 +855,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function ContactView() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "681938a309d6510c58f392acc78d3caf5eb66dbf8ab37adc3e34b23e31ec9572") {
+    if ($[0] !== "1a94eac734e1c0d5efd0c5811d8d957f674e067914c2d1d814e5e1b04695e8cc") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "681938a309d6510c58f392acc78d3caf5eb66dbf8ab37adc3e34b23e31ec9572";
+        $[0] = "1a94eac734e1c0d5efd0c5811d8d957f674e067914c2d1d814e5e1b04695e8cc";
     }
     let t0;
     let t1;
     let t2;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-            className: "text-4xl md:text-5xl lg:text-6xl font-light mb-8",
+            className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light mb-6 md:mb-8",
             children: "Get in Touch"
         }, void 0, false, {
             fileName: "[project]/src/components/ContactView.tsx",
@@ -583,7 +874,7 @@ function ContactView() {
             columnNumber: 10
         }, this);
         t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-gray-500 mb-8",
+            className: "text-gray-500 text-sm md:text-base mb-6 md:mb-8",
             children: "If you want to get in touch, feel free to reach out via email."
         }, void 0, false, {
             fileName: "[project]/src/components/ContactView.tsx",
@@ -592,7 +883,7 @@ function ContactView() {
         }, this);
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
             href: "mailto:einar@black-knight.dev",
-            className: "text-xl md:text-2xl text-white hover:text-gray-300 transition-colors underline underline-offset-4 mb-8",
+            className: "text-lg sm:text-xl md:text-2xl text-white hover:text-gray-300 transition-colors underline underline-offset-4 mb-6 md:mb-8 break-all",
             children: "einar@black-knight.dev"
         }, void 0, false, {
             fileName: "[project]/src/components/ContactView.tsx",
@@ -610,7 +901,7 @@ function ContactView() {
     let t3;
     if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "h-full flex flex-col justify-center max-w-2xl animate-fadeIn",
+            className: "min-h-full flex flex-col justify-start md:justify-center max-w-2xl animate-fadeIn pt-4 pb-8 md:py-0",
             children: [
                 t0,
                 t1,
@@ -626,20 +917,20 @@ function ContactView() {
                     }, void 0, false, {
                         fileName: "[project]/src/components/ContactView.tsx",
                         lineNumber: 29,
-                        columnNumber: 133
+                        columnNumber: 172
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/ContactView.tsx",
                     lineNumber: 29,
-                    columnNumber: 100
+                    columnNumber: 139
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-gray-600 text-sm mt-8",
+                    className: "text-gray-600 text-xs md:text-sm mt-6 md:mt-8",
                     children: "I typically respond within 24-48 hours."
                 }, void 0, false, {
                     fileName: "[project]/src/components/ContactView.tsx",
                     lineNumber: 29,
-                    columnNumber: 300
+                    columnNumber: 339
                 }, this)
             ]
         }, void 0, true, {
@@ -674,11 +965,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function ProjectsListView(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "9e529f63fbac9a7ba0f5883f81d00fb44e1aba642f49e418d63e5d27346843ed") {
+    if ($[0] !== "239ba139106ab84c4bb0795c50a6db1de0b2f1196c3c66341e293a7caaaf3181") {
         for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "9e529f63fbac9a7ba0f5883f81d00fb44e1aba642f49e418d63e5d27346843ed";
+        $[0] = "239ba139106ab84c4bb0795c50a6db1de0b2f1196c3c66341e293a7caaaf3181";
     }
     const { projects, onProjectClick, activeSlug } = t0;
     const getStatusLabel = _ProjectsListViewGetStatusLabel;
@@ -691,15 +982,15 @@ function ProjectsListView(t0) {
                         onClick: {
                             "ProjectsListView[projects.map() > <div>.onClick]": ()=>onProjectClick(project.slug)
                         }["ProjectsListView[projects.map() > <div>.onClick]"],
-                        className: "group cursor-pointer py-4 md:py-6 border-b border-gray-800/50 last:border-b-0 transition-all",
+                        className: "group cursor-pointer py-3 sm:py-4 md:py-6 border-b border-gray-800/50 last:border-b-0 transition-all",
                         style: {
                             animation: `fadeSlideIn 0.4s ease-out ${index * 0.08}s both`
                         },
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col md:flex-row md:items-baseline md:justify-between gap-1 md:gap-8",
+                            className: "flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between md:gap-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: `text-2xl md:text-4xl lg:text-5xl font-light transition-colors duration-300 tracking-tight ${activeSlug === project.slug ? "text-white" : "text-gray-400 group-hover:text-white"}`,
+                                    className: `text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-light transition-colors duration-300 tracking-tight ${activeSlug === project.slug ? "text-white" : "text-gray-400 group-hover:text-white"}`,
                                     children: project.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ProjectsListView.tsx",
@@ -707,34 +998,35 @@ function ProjectsListView(t0) {
                                     columnNumber: 107
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-3 text-xs md:text-sm text-gray-600 group-hover:text-gray-400 transition-colors whitespace-nowrap",
+                                    className: "flex items-center gap-2 md:gap-3 text-xs md:text-sm text-gray-600 group-hover:text-gray-400 transition-colors",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: getStatusLabel(project.status)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProjectsListView.tsx",
                                             lineNumber: 33,
-                                            columnNumber: 458
+                                            columnNumber: 472
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "/"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProjectsListView.tsx",
                                             lineNumber: 33,
-                                            columnNumber: 503
+                                            columnNumber: 517
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "truncate max-w-[150px] md:max-w-none",
                                             children: project.techStack?.slice(0, 2).join(", ")
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/ProjectsListView.tsx",
                                             lineNumber: 33,
-                                            columnNumber: 517
+                                            columnNumber: 531
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/ProjectsListView.tsx",
                                     lineNumber: 33,
-                                    columnNumber: 322
+                                    columnNumber: 345
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -765,7 +1057,7 @@ function ProjectsListView(t0) {
     let t2;
     if ($[8] !== t1) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "h-full flex flex-col justify-center animate-fadeIn",
+            className: "min-h-full flex flex-col justify-start md:justify-center animate-fadeIn pt-4 pb-8 md:py-0",
             children: t1
         }, void 0, false, {
             fileName: "[project]/src/components/ProjectsListView.tsx",
@@ -839,12 +1131,12 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Hero() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(19);
-    if ($[0] !== "a44432d9b72d99d033982f3bcc216361dc1e8da47596f61e2dfe7826559ca83a") {
-        for(let $i = 0; $i < 19; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(20);
+    if ($[0] !== "4c9804b12927198dce68e4272ca8f80a4e06379f687eb64be44aa25f9448e76f") {
+        for(let $i = 0; $i < 20; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a44432d9b72d99d033982f3bcc216361dc1e8da47596f61e2dfe7826559ca83a";
+        $[0] = "4c9804b12927198dce68e4272ca8f80a4e06379f687eb64be44aa25f9448e76f";
     }
     const [activeView, setActiveView] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("about");
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
@@ -877,86 +1169,100 @@ function Hero() {
         t1 = $[4];
     }
     let t2;
-    if ($[5] !== activeView) {
-        t2 = activeView === "about" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutView$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-16 md:hidden"
+        }, void 0, false, {
             fileName: "[project]/src/components/Hero.tsx",
             lineNumber: 45,
-            columnNumber: 36
+            columnNumber: 10
         }, this);
-        $[5] = activeView;
-        $[6] = t2;
+        $[5] = t2;
     } else {
-        t2 = $[6];
+        t2 = $[5];
     }
     let t3;
-    if ($[7] !== activeView || $[8] !== handleProjectClick) {
-        t3 = activeView === "projects" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProjectsListView$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    if ($[6] !== activeView) {
+        t3 = activeView === "about" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutView$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/components/Hero.tsx",
+            lineNumber: 52,
+            columnNumber: 36
+        }, this);
+        $[6] = activeView;
+        $[7] = t3;
+    } else {
+        t3 = $[7];
+    }
+    let t4;
+    if ($[8] !== activeView || $[9] !== handleProjectClick) {
+        t4 = activeView === "projects" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProjectsListView$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
             projects: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$Projekte$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Projekte"],
             onProjectClick: handleProjectClick
         }, void 0, false, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 53,
+            lineNumber: 60,
             columnNumber: 39
         }, this);
-        $[7] = activeView;
-        $[8] = handleProjectClick;
-        $[9] = t3;
+        $[8] = activeView;
+        $[9] = handleProjectClick;
+        $[10] = t4;
     } else {
-        t3 = $[9];
-    }
-    let t4;
-    if ($[10] !== activeView) {
-        t4 = activeView === "contact" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ContactView$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-            fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 62,
-            columnNumber: 38
-        }, this);
-        $[10] = activeView;
-        $[11] = t4;
-    } else {
-        t4 = $[11];
+        t4 = $[10];
     }
     let t5;
-    if ($[12] !== t2 || $[13] !== t3 || $[14] !== t4) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex-1 p-8 md:p-12 overflow-y-auto",
+    if ($[11] !== activeView) {
+        t5 = activeView === "contact" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ContactView$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/components/Hero.tsx",
+            lineNumber: 69,
+            columnNumber: 38
+        }, this);
+        $[11] = activeView;
+        $[12] = t5;
+    } else {
+        t5 = $[12];
+    }
+    let t6;
+    if ($[13] !== t3 || $[14] !== t4 || $[15] !== t5) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex-1 p-6 md:p-8 lg:p-12 overflow-y-auto",
             children: [
                 t2,
                 t3,
-                t4
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 70,
-            columnNumber: 10
-        }, this);
-        $[12] = t2;
-        $[13] = t3;
-        $[14] = t4;
-        $[15] = t5;
-    } else {
-        t5 = $[15];
-    }
-    let t6;
-    if ($[16] !== t1 || $[17] !== t5) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            className: "min-h-screen flex text-white relative z-10",
-            children: [
-                t1,
+                t4,
                 t5
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Hero.tsx",
-            lineNumber: 80,
+            lineNumber: 77,
             columnNumber: 10
         }, this);
-        $[16] = t1;
-        $[17] = t5;
-        $[18] = t6;
+        $[13] = t3;
+        $[14] = t4;
+        $[15] = t5;
+        $[16] = t6;
     } else {
-        t6 = $[18];
+        t6 = $[16];
     }
-    return t6;
+    let t7;
+    if ($[17] !== t1 || $[18] !== t6) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            className: "min-h-screen flex flex-col md:flex-row text-white relative z-10",
+            children: [
+                t1,
+                t6
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Hero.tsx",
+            lineNumber: 87,
+            columnNumber: 10
+        }, this);
+        $[17] = t1;
+        $[18] = t6;
+        $[19] = t7;
+    } else {
+        t7 = $[19];
+    }
+    return t7;
 }
 _s(Hero, "S7NZqaRrr3pTgcOACuEA36V89EU=", false, function() {
     return [

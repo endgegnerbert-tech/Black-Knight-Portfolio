@@ -35,3 +35,58 @@
 [00:47:04.068] Server  LOG     ✓ Compiled in 128ms
 [00:47:52.496] Server  LOG     ✓ Compiled in 203ms
 [02:20:42.993] Server  LOG     ✓ Compiled in 579ms
+[03:52:08.594] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[03:52:08.909] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-1.png" "received" null
+[03:52:08.912] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-2.png" "received" null
+[03:52:08.914] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-3.png" "received" null
+[03:52:09.005] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-4.png" "received" null
+[03:52:09.071] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-5.png" "received" null
+[03:52:09.088] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-6.png" "received" null
+[03:52:09.181] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-7.png" "received" null
+[03:52:09.184] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-8.png" "received" null
+[03:52:09.985] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-1.png" "received" null
+[03:52:13.966] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-2.png" "received" null
+[03:52:13.998] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-6.png" "received" null
+[03:52:14.025] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-1.png" "received" null
+[03:52:14.028] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-3.png" "received" null
+[03:52:14.030] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-4.png" "received" null
+[03:52:14.033] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-5.png" "received" null
+[03:52:14.121] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-7.png" "received" null
+[03:52:14.122] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-8.png" "received" null
+[03:52:50.605] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-6.png" "received" null
+[03:52:51.795] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-6.png" "received" null
+[03:52:52.249] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-6.png" "received" null
+[03:52:53.234] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-6.png" "received" null
+[03:57:00.141] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/screenshots/cropclear-4.png" "received" null
+[03:58:04.291] Server  LOG     ✓ Compiled in 2s
+[03:58:06.241] Browser WARN    Image with src "/screenshots/cropclear3.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:58:06.241] Browser WARN    Image with src "/screenshots/cropclear4.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:58:06.241] Browser WARN    Image with src "/screenshots/cropclear1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:58:06.241] Browser WARN    Image with src "/screenshots/cropclear2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:58:07.121] Browser WARN    Image with src "/screenshots/cropclear5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:58:07.121] Browser WARN    Image with src "/screenshots/cropclear6.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:58:07.121] Browser WARN    Image with src "/screenshots/cropclear8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:58:07.121] Browser WARN    Image with src "/screenshots/cropclear7.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:58:22.748] Server  LOG     ✓ Compiled in 3.6s
+[03:58:24.495] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[03:58:50.758] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:58:50.775] Server  LOG     ✓ Compiled in 1001ms
+[04:03:24.422] Server  LOG     ✓ Compiled in 2.3s
+[04:04:00.187] Server  LOG     ✓ Compiled in 1600ms
+[04:04:17.499] Server  LOG     ✓ Compiled in 562ms
+[04:04:32.581] Server  LOG     ✓ Compiled in 397ms
+[04:05:03.817] Server  LOG     ✓ Compiled in 251ms
+[04:05:19.893] Server  LOG     ✓ Compiled in 789ms
+[04:05:36.678] Server  LOG     ✓ Compiled in 500ms
+[04:07:11.032] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[04:17:23.823] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[04:19:09.412] Server  LOG     ✓ Compiled in 557ms
+[04:19:39.262] Server  LOG     ✓ Compiled in 108ms
+[04:22:16.461] Server  LOG     ✓ Compiled in 1317ms
+[04:22:27.110] Server  LOG     ✓ Compiled in 226ms
+[04:22:35.124] Server  LOG     ✓ Compiled in 674ms
+[04:24:29.940] Server  LOG     ✓ Compiled in 917ms
+[04:26:07.097] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[04:27:49.757] Server  LOG     ✓ Compiled in 96ms
+[04:28:49.931] Server  LOG     ✓ Compiled in 981ms
+[04:28:58.198] Server  LOG     ✓ Compiled in 709ms

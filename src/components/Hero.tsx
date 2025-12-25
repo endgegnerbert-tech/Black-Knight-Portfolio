@@ -19,11 +19,14 @@ export default function Hero() {
   };
 
   return (
-    <section className="min-h-screen flex text-white relative z-10">
+    <section className="min-h-screen flex flex-col md:flex-row text-white relative z-10">
       <Sidebar activeView={activeView} onViewChange={setActiveView} />
 
       {/* Right Content Area */}
-      <div className="flex-1 p-8 md:p-12 overflow-y-auto">
+      <div className="flex-1 p-6 md:p-8 lg:p-12 overflow-y-auto">
+        {/* Mobile spacer for fixed header */}
+        <div className="h-16 md:hidden" />
+
         {activeView === "about" && <AboutView />}
 
         {activeView === "projects" && (

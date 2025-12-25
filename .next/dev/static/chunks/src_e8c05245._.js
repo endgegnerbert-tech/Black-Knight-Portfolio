@@ -73,14 +73,14 @@ const Projekte = [
             "Mobile-first responsive design"
         ],
         screenshots: [
-            "/screenshots/cropclear-1.png",
-            "/screenshots/cropclear-2.png",
-            "/screenshots/cropclear-3.png",
-            "/screenshots/cropclear-4.png",
-            "/screenshots/cropclear-5.png",
-            "/screenshots/cropclear-6.png",
-            "/screenshots/cropclear-7.png",
-            "/screenshots/cropclear-8.png"
+            "/screenshots/cropclear1.png",
+            "/screenshots/cropclear2.png",
+            "/screenshots/cropclear3.png",
+            "/screenshots/cropclear4.png",
+            "/screenshots/cropclear5.png",
+            "/screenshots/cropclear6.png",
+            "/screenshots/cropclear7.png",
+            "/screenshots/cropclear8.png"
         ]
     },
     {

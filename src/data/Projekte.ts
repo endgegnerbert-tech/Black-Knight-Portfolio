@@ -50,7 +50,7 @@ export const Projekte: Project[] = [
     longDescription:
       "Cropclear is an innovative platform built to enhance transparency and communication within agricultural supply chains in Africa. The application connects farmers, distributors, and retailers, providing real-time tracking and verification of agricultural products from farm to market.",
     status: "beta-test",
-    projectUrl: "https://savalion-app-6vzc.vercel.app",
+    projectUrl: "https://cropclear.vercel.app",
     techStack: ["Next.js", "Supabase", "Clerk Auth", "Tailwind CSS", "TypeScript"],
     features: [
       "Supply chain tracking",
@@ -60,14 +60,14 @@ export const Projekte: Project[] = [
       "Mobile-first responsive design",
     ],
     screenshots: [
-      "/screenshots/cropclear-1.png",
-      "/screenshots/cropclear-2.png",
-      "/screenshots/cropclear-3.png",
-      "/screenshots/cropclear-4.png",
-      "/screenshots/cropclear-5.png",
-      "/screenshots/cropclear-6.png",
-      "/screenshots/cropclear-7.png",
-      "/screenshots/cropclear-8.png",
+      "/screenshots/cropclear1.png",
+      "/screenshots/cropclear2.png",
+      "/screenshots/cropclear3.png",
+      "/screenshots/cropclear4.png",
+      "/screenshots/cropclear5.png",
+      "/screenshots/cropclear6.png",
+      "/screenshots/cropclear7.png",
+      "/screenshots/cropclear8.png",
     ],
   },
   {
@@ -97,7 +97,7 @@ export const Projekte: Project[] = [
     longDescription:
       "A lightweight and interactive scoreboard project inspired by a Scrimba course, developed entirely without AI assistance to deepen core front-end understanding. This project focuses on mastering JavaScript logic, DOM manipulation, and layout structure using only HTML, CSS, and JavaScript. It serves as a practical demonstration of solid technical fundamentals and independent coding ability beyond AI-driven development.",
     status: "completed",
-    projectUrl: "/",
+    projectUrl: "https://score-board-smoky.vercel.app",
     techStack: ["HTML", "CSS", "JavaScript"],
     features: [
       "Real-time score tracking",
