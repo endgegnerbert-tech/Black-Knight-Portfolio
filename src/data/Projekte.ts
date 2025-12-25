@@ -18,6 +18,8 @@ export const Projekte: Project[] = [
       "Responsive design for all devices",
       "Educational quiz sections",
     ],
+    // Screenshots hinzufügen:
+    // screenshots: ["/screenshots/school-project-1.png"],
   },
   {
     id: 2,
@@ -37,6 +39,7 @@ export const Projekte: Project[] = [
       "Client management system",
       "Financial reporting dashboard",
     ],
+    // screenshots: ["/screenshots/invoice-app-1.png", "/screenshots/invoice-app-2.png"],
   },
   {
     id: 3,
@@ -56,6 +59,16 @@ export const Projekte: Project[] = [
       "Multi-language support",
       "Mobile-first responsive design",
     ],
+    screenshots: [
+      "/screenshots/cropclear-1.png",
+      "/screenshots/cropclear-2.png",
+      "/screenshots/cropclear-3.png",
+      "/screenshots/cropclear-4.png",
+      "/screenshots/cropclear-5.png",
+      "/screenshots/cropclear-6.png",
+      "/screenshots/cropclear-7.png",
+      "/screenshots/cropclear-8.png",
+    ],
   },
   {
     id: 4,
@@ -73,6 +86,25 @@ export const Projekte: Project[] = [
       "Personalized user experience",
       "Natural language understanding",
       "Memory and learning capabilities",
+    ],
+  },
+  {
+    id: 5,
+    slug: "scrimba-scoreboard",
+    title: "Scrimba Scoreboard",
+    description:
+      "A minimalist scoreboard app built to strengthen fundamental web development skills and demonstrate proficiency without AI assistance.",
+    longDescription:
+      "A lightweight and interactive scoreboard project inspired by a Scrimba course, developed entirely without AI assistance to deepen core front-end understanding. This project focuses on mastering JavaScript logic, DOM manipulation, and layout structure using only HTML, CSS, and JavaScript. It serves as a practical demonstration of solid technical fundamentals and independent coding ability beyond AI-driven development.",
+    status: "completed",
+    projectUrl: "/",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    features: [
+      "Real-time score tracking",
+      "Reset and increment functions",
+    ],
+    screenshots: [
+      "/screenshots/scrimbaScoreboard.png",
     ],
   },
 ];

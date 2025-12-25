@@ -117,6 +117,26 @@ const Projekte = [
             "Natural language understanding",
             "Memory and learning capabilities"
         ]
+    },
+    {
+        id: 5,
+        slug: "scrimba-scoreboard",
+        title: "Scrimba Scoreboard",
+        description: "A clean and interactive scoreboard application built to track player scores in real time with modern web technologies.",
+        longDescription: "A responsive and minimalistic scoreboard app inspired by a Scrimba course project. Built to manage and display player scores dynamically, it demonstrates real-time updates, component-based architecture, and clean UI design. The project focuses on DOM manipulation, modular code structure, and an intuitive user experience for learning front-end fundamentals.",
+        status: "completed",
+        projectUrl: "/",
+        techStack: [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        features: [
+            "Real-time score tracking",
+            "Player name customization",
+            "Reset and increment functions",
+            "Responsive, minimal UI"
+        ]
     }
 ];
 }),

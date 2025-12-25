@@ -93,6 +93,26 @@ const Projekte = [
             "Natural language understanding",
             "Memory and learning capabilities"
         ]
+    },
+    {
+        id: 5,
+        slug: "scrimba-scoreboard",
+        title: "Scrimba Scoreboard",
+        description: "A clean and interactive scoreboard application built to track player scores in real time with modern web technologies.",
+        longDescription: "A responsive and minimalistic scoreboard app inspired by a Scrimba course project. Built to manage and display player scores dynamically, it demonstrates real-time updates, component-based architecture, and clean UI design. The project focuses on DOM manipulation, modular code structure, and an intuitive user experience for learning front-end fundamentals.",
+        status: "completed",
+        projectUrl: "/",
+        techStack: [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        features: [
+            "Real-time score tracking",
+            "Player name customization",
+            "Reset and increment functions",
+            "Responsive, minimal UI"
+        ]
     }
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -121,11 +141,11 @@ var _s = __turbopack_context__.k.signature();
 function ProjectDetailPage(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(64);
-    if ($[0] !== "a02c6441c325ab89958d4915ef98c44acdd5d7118c8a9a5ddb6881ca5184b8a0") {
+    if ($[0] !== "2d790bc7ed4ff1e3ae5c924a225f5c218403bf0119757dfad50de5440ade907a") {
         for(let $i = 0; $i < 64; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a02c6441c325ab89958d4915ef98c44acdd5d7118c8a9a5ddb6881ca5184b8a0";
+        $[0] = "2d790bc7ed4ff1e3ae5c924a225f5c218403bf0119757dfad50de5440ade907a";
     }
     const { params } = t0;
     const { slug } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["use"])(params);
@@ -465,7 +485,7 @@ function ProjectDetailPage(t0) {
             }
             t1 = "flex-1 p-8 md:p-12 overflow-y-auto";
             t2 = activeView === "details" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "h-full flex flex-col justify-center max-w-3xl animate-fadeIn",
+                className: "min-h-full flex flex-col justify-start py-8 max-w-3xl animate-fadeIn",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: {
@@ -498,7 +518,7 @@ function ProjectDetailPage(t0) {
                     }, void 0, true, {
                         fileName: "[project]/src/app/projects/[slug]/page.tsx",
                         lineNumber: 216,
-                        columnNumber: 118
+                        columnNumber: 126
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: `text-sm mb-4 ${getStatusStyles(project.status)}`,
@@ -593,6 +613,48 @@ function ProjectDetailPage(t0) {
                         lineNumber: 220,
                         columnNumber: 127
                     }, this),
+                    project.screenshots && project.screenshots.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mb-8",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "text-gray-500 text-sm uppercase tracking-widest mb-4",
+                                children: "Screenshots"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/projects/[slug]/page.tsx",
+                                lineNumber: 220,
+                                columnNumber: 409
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "grid grid-cols-1 md:grid-cols-2 gap-4",
+                                children: project.screenshots.map({
+                                    "ProjectDetailPage[project.screenshots.map()]": (screenshot, index_1)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative aspect-video rounded-lg overflow-hidden border border-gray-800 hover:border-gray-600 transition-colors",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: screenshot,
+                                                alt: `${project.title} screenshot ${index_1 + 1}`,
+                                                className: "w-full h-full object-cover"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/projects/[slug]/page.tsx",
+                                                lineNumber: 221,
+                                                columnNumber: 231
+                                            }, this)
+                                        }, index_1, false, {
+                                            fileName: "[project]/src/app/projects/[slug]/page.tsx",
+                                            lineNumber: 221,
+                                            columnNumber: 88
+                                        }, this)
+                                }["ProjectDetailPage[project.screenshots.map()]"])
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/projects/[slug]/page.tsx",
+                                lineNumber: 220,
+                                columnNumber: 494
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/projects/[slug]/page.tsx",
+                        lineNumber: 220,
+                        columnNumber: 387
+                    }, this),
                     project.projectUrl && project.projectUrl !== "/" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: project.projectUrl,
                         target: "_blank",
@@ -612,19 +674,19 @@ function ProjectDetailPage(t0) {
                                     d: "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                                    lineNumber: 220,
-                                    columnNumber: 642
+                                    lineNumber: 222,
+                                    columnNumber: 390
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                                lineNumber: 220,
-                                columnNumber: 563
+                                lineNumber: 222,
+                                columnNumber: 311
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                        lineNumber: 220,
-                        columnNumber: 382
+                        lineNumber: 222,
+                        columnNumber: 130
                     }, this)
                 ]
             }, void 0, true, {
@@ -660,13 +722,13 @@ function ProjectDetailPage(t0) {
         t6 = activeView === "projects" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "h-full flex flex-col justify-center animate-fadeIn",
             children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$Projekte$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Projekte"].map({
-                "ProjectDetailPage[Projekte.map()]": (p_0, index_1)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                "ProjectDetailPage[Projekte.map()]": (p_0, index_2)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         onClick: {
                             "ProjectDetailPage[Projekte.map() > <div>.onClick]": ()=>handleProjectClick(p_0.slug)
                         }["ProjectDetailPage[Projekte.map() > <div>.onClick]"],
                         className: `group cursor-pointer py-4 md:py-6 border-b border-gray-800/50 last:border-b-0 transition-all ${p_0.slug === slug ? "opacity-100" : ""}`,
                         style: {
-                            animation: `fadeSlideIn 0.4s ease-out ${index_1 * 0.08}s both`
+                            animation: `fadeSlideIn 0.4s ease-out ${index_2 * 0.08}s both`
                         },
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-col md:flex-row md:items-baseline md:justify-between gap-1 md:gap-8",
@@ -676,7 +738,7 @@ function ProjectDetailPage(t0) {
                                     children: p_0.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                                    lineNumber: 251,
+                                    lineNumber: 253,
                                     columnNumber: 107
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -686,44 +748,44 @@ function ProjectDetailPage(t0) {
                                             children: getStatusLabel(p_0.status)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                                            lineNumber: 251,
+                                            lineNumber: 253,
                                             columnNumber: 444
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "/"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                                            lineNumber: 251,
+                                            lineNumber: 253,
                                             columnNumber: 485
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: p_0.techStack?.slice(0, 2).join(", ")
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                                            lineNumber: 251,
+                                            lineNumber: 253,
                                             columnNumber: 499
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                                    lineNumber: 251,
+                                    lineNumber: 253,
                                     columnNumber: 308
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                            lineNumber: 251,
+                            lineNumber: 253,
                             columnNumber: 12
                         }, this)
                     }, p_0.id, false, {
                         fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                        lineNumber: 247,
+                        lineNumber: 249,
                         columnNumber: 64
                     }, this)
             }["ProjectDetailPage[Projekte.map()]"])
         }, void 0, false, {
             fileName: "[project]/src/app/projects/[slug]/page.tsx",
-            lineNumber: 246,
+            lineNumber: 248,
             columnNumber: 39
         }, this);
         $[48] = activeView;
@@ -744,7 +806,7 @@ function ProjectDetailPage(t0) {
                     children: "Get in Touch"
                 }, void 0, false, {
                     fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                    lineNumber: 263,
+                    lineNumber: 265,
                     columnNumber: 116
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -752,7 +814,7 @@ function ProjectDetailPage(t0) {
                     children: "If you want to get in touch, feel free to reach out via email."
                 }, void 0, false, {
                     fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                    lineNumber: 263,
+                    lineNumber: 265,
                     columnNumber: 198
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -761,7 +823,7 @@ function ProjectDetailPage(t0) {
                     children: "einar@black-knight.dev"
                 }, void 0, false, {
                     fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                    lineNumber: 263,
+                    lineNumber: 265,
                     columnNumber: 298
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -774,12 +836,12 @@ function ProjectDetailPage(t0) {
                         children: "GitHub"
                     }, void 0, false, {
                         fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                        lineNumber: 263,
+                        lineNumber: 265,
                         columnNumber: 512
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                    lineNumber: 263,
+                    lineNumber: 265,
                     columnNumber: 479
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -787,13 +849,13 @@ function ProjectDetailPage(t0) {
                     children: "I typically respond within 24-48 hours."
                 }, void 0, false, {
                     fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                    lineNumber: 263,
+                    lineNumber: 265,
                     columnNumber: 679
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/projects/[slug]/page.tsx",
-            lineNumber: 263,
+            lineNumber: 265,
             columnNumber: 38
         }, this);
         $[53] = activeView;
@@ -812,7 +874,7 @@ function ProjectDetailPage(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/projects/[slug]/page.tsx",
-            lineNumber: 271,
+            lineNumber: 273,
             columnNumber: 10
         }, this);
         $[55] = t1;
@@ -833,7 +895,7 @@ function ProjectDetailPage(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/projects/[slug]/page.tsx",
-            lineNumber: 282,
+            lineNumber: 284,
             columnNumber: 10
         }, this);
         $[60] = t3;
@@ -860,14 +922,14 @@ function _ProjectDetailPageProjectFeaturesMap(feature, index_0) {
                 children: "—"
             }, void 0, false, {
                 fileName: "[project]/src/app/projects/[slug]/page.tsx",
-                lineNumber: 293,
+                lineNumber: 295,
                 columnNumber: 77
             }, this),
             feature
         ]
     }, index_0, true, {
         fileName: "[project]/src/app/projects/[slug]/page.tsx",
-        lineNumber: 293,
+        lineNumber: 295,
         columnNumber: 10
     }, this);
 }

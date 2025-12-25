@@ -9,3 +9,29 @@
 [00:19:32.013] Server  LOG     ✓ Compiled in 23ms
 [00:19:32.888] Server  LOG     ✓ Compiled in 875ms
 [00:20:40.430] Server  LOG     ✓ Compiled in 403ms
+[00:25:14.703] Server  LOG     ✓ Compiled in 241ms
+[00:26:17.341] Server  LOG     ✓ Compiled in 1542ms
+[00:26:34.063] Server  LOG     ✓ Compiled in 927ms
+[00:33:23.150] Server  LOG     ✓ Compiled in 2.4s
+[00:33:39.008] Server  LOG     ✓ Compiled in 1517ms
+[00:35:58.618] Server  LOG     ✓ Compiled in 484ms
+[00:41:29.306] Server  LOG     ✓ Compiled in 791ms
+[00:41:45.569] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/public/screenshots/scrimbaScoreboard.png" "received" null
+[00:41:50.910] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Users/einarjaeger/Documents/GitHub/Black-Knight-Portfolio/public/screenshots/scrimbaScoreboard.png" "received" null
+[00:42:36.629] Server  LOG     ✓ Compiled in 1336ms
+[00:42:38.596] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/public/screenshots/scrimbaScoreboard.png" "received" null
+[00:42:39.599] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/public/screenshots/scrimbaScoreboard.png" "received" null
+[00:42:40.144] Browser WARN    Image with src "/public/screenshots/scrimbaScoreboard.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:58.218] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/public/screenshots/scrimbaScoreboard.png" "received" null
+[00:42:58.607] Browser WARN    Image with src "/public/screenshots/scrimbaScoreboard.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:59.947] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/public/screenshots/scrimbaScoreboard.png" "received" null
+[00:43:01.837] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/public/screenshots/scrimbaScoreboard.png" "received" null
+[00:43:02.004] Browser WARN    Image with src "/public/screenshots/scrimbaScoreboard.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:03.202] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/public/screenshots/scrimbaScoreboard.png" "received" null
+[00:43:05.508] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/public/screenshots/scrimbaScoreboard.png" "received" null
+[00:44:10.872] Server  LOG     ✓ Compiled in 328ms
+[00:44:11.191] Browser WARN    Image with src "/screenshots/scrimbaScoreboard.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:21.596] Server  LOG     ✓ Compiled in 910ms
+[00:47:04.068] Server  LOG     ✓ Compiled in 128ms
+[00:47:52.496] Server  LOG     ✓ Compiled in 203ms
+[02:20:42.993] Server  LOG     ✓ Compiled in 579ms
