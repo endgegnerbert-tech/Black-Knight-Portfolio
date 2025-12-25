@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "ac2f24aba16a11553aa681dab70f498f",
-    "previewModeSigningKey": "ed07ac30da0097418a74f79cf55ddb7b8724935436a61c1d424a4ce065346cab",
-    "previewModeEncryptionKey": "3e827f54f7d2e5ddb13c790f26b2b0955cd6016ab3c498b961ac30a7dbefa703"
-  }
-}
+{"version":4,"routes":{"/projects/school-project":{},"/projects/invoice-app":{},"/projects/cropclear":{},"/projects/ai-app":{}},"dynamicRoutes":{"/projects/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[slug]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"3a6117ac8f4f20c53a146feb9702f372","previewModeSigningKey":"959ee25a2673d793d309acd41b06b8e3432ed54e7620d0323e9f58ad8fbee751","previewModeEncryptionKey":"9367ad401179e4fb86d754b3ff9ef7ce0c74fee9308929c7b6752b5817a3e29b"}}

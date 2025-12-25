@@ -1,15 +1,11 @@
 import Hero from "@/components/Hero";
-import GProject from "@/components/gProject";
-import Footer from "@/components/Footer";
 import ThreeDBackground from "@/components/ThreeDBackground";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <ThreeDBackground />
       <Hero />
-      <GProject />
-      <Footer />
     </main>
   );
 }
