@@ -8,7 +8,11 @@ interface SidebarProps {
   onLogoClick?: () => void;
 }
 
-export default function Sidebar({ activeView, onViewChange, onLogoClick }: SidebarProps) {
+export default function Sidebar({
+  activeView,
+  onViewChange,
+  onLogoClick,
+}: SidebarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleLogoClick = () => {
@@ -31,8 +35,13 @@ export default function Sidebar({ activeView, onViewChange, onLogoClick }: Sideb
       <div className="md:hidden fixed top-0 left-0 right-0 z-40 bg-black/90 backdrop-blur-sm border-b border-gray-800/50 px-4 py-4 flex items-center justify-between">
         <button
           onClick={handleLogoClick}
-          className="text-left hover:opacity-70 transition-opacity"
+          className="text-left hover:opacity-70 transition-opacity flex items-center gap-3"
         >
+          <img
+            src="/og-image.png"
+            alt="Black Knight Logo"
+            className="w-6 h-6 rounded-full object-cover"
+          />
           <h1 className="text-xl font-light tracking-tight">Black Knight</h1>
         </button>
         <button
@@ -41,12 +50,32 @@ export default function Sidebar({ activeView, onViewChange, onLogoClick }: Sideb
           aria-label="Toggle menu"
         >
           {mobileMenuOpen ? (
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1.5}
+                d="M6 18L18 6M6 6l12 12"
+              />
             </svg>
           ) : (
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1.5}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
             </svg>
           )}
         </button>
@@ -119,12 +148,19 @@ export default function Sidebar({ activeView, onViewChange, onLogoClick }: Sideb
         <div>
           <button
             onClick={handleLogoClick}
-            className="text-left hover:opacity-70 transition-opacity"
+            className="text-left hover:opacity-70 transition-opacity flex items-center gap-3"
           >
-            <h1 className="text-3xl lg:text-4xl font-light tracking-tight mb-2">
-              Black Knight
-            </h1>
-            <p className="text-gray-500 text-sm">Developer & Designer</p>
+            <img
+              src="/og-image.png"
+              alt="Black Knight Logo"
+              className="w-8 h-8 rounded-full object-cover"
+            />
+            <div>
+              <h1 className="text-3xl lg:text-4xl font-light tracking-tight mb-2">
+                Black Knight
+              </h1>
+              <p className="text-gray-500 text-sm">Developer & Designer</p>
+            </div>
           </button>
 
           {/* Navigation */}

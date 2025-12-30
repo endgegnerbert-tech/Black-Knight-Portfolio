@@ -107,4 +107,27 @@ export const Projekte: Project[] = [
       "/screenshots/scrimbaScoreboard.png",
     ],
   },
+  {
+    id: 6,
+    slug: "password-generator",
+    title: "Password Generator",
+    description:
+      "A minimalist password generator app ,another solo Project in this series to show my progress.",
+    longDescription:
+      "Built a fully vanilla HTML/CSS/JavaScript password generator that creates strong, customizable passwords with real-time feedback. Interactive length slider (4-20 chars) features a visual strength meter (Red <8, Orange 8-12, Green 13+) – drag and watch the password grow instantly!",
+    status: "completed",
+    projectUrl: "https://password-generator-c7f706dit-einars-projects-eecd382a.vercel.app",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    features: [
+      "Interactive length slider (4-50 chars) with live preview",
+      "Visual strength meter (Red <8, Orange 8-12, Green 13+)",
+      "Dual password generation (Ps1/Ps2) with synchronized length",
+      "Custom range slider styling with classList transitions",
+      "Global state management with `let length`",
+    ],
+
+    screenshots: [
+      "/screenshots/passwordGenerator.png",
+    ],
+  },
 ];

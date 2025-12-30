@@ -13,7 +13,7 @@ export default function Footer() {
 
         {/* Social Links oder Contact */}
         <div className="text-center text-gray-400 text-sm">
-          <p>Made with ❤️ by Einar</p>
+          <p>Made with ❤️ by Black Knight</p>
         </div>
 
         {/* Legal Links */}

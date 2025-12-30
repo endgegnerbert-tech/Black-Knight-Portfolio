@@ -4,9 +4,24 @@ import "./globals.css";
 
 // 📋 SEO-Informationen für deine Website
 export const metadata: Metadata = {
+  metadataBase: new URL("https://black-knight.dev"), // Für Produktion auf deiner Domain
   title: "Black Knight Portfolio",
-  description: "Portfolio von Einar - Creative Developer aus Deutschland",
+  description:
+    "Passionate Junior Developer from Munich, Germany, blending AI tools like Claude with hands-on coding to build innovative web apps that solve real problems.",
   keywords: ["Portfolio", "Webentwicklung", "Next.js", "TypeScript"],
+  openGraph: {
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Black Knight Portfolio - Junior Developer",
+      },
+    ],
+  },
+  icons: {
+    icon: "/favicon.jpeg",
+  },
 };
 
 // 🏛️ ROOT LAYOUT - Das Grundgerüst deiner Website
