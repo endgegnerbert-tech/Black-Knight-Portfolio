@@ -19,9 +19,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  icons: {
-    icon: "/favicon.png",
-  },
 };
 
 // 🏛️ ROOT LAYOUT - Das Grundgerüst deiner Website

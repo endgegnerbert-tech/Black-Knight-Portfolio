@@ -35,13 +35,8 @@ export default function Sidebar({
       <div className="md:hidden fixed top-0 left-0 right-0 z-40 bg-black/90 backdrop-blur-sm border-b border-gray-800/50 px-4 py-4 flex items-center justify-between">
         <button
           onClick={handleLogoClick}
-          className="text-left hover:opacity-70 transition-opacity flex items-center gap-3"
+          className="text-left hover:opacity-70 transition-opacity"
         >
-          <img
-            src="/og-image.png"
-            alt="Black Knight Logo"
-            className="w-6 h-6 rounded-full object-cover"
-          />
           <h1 className="text-xl font-light tracking-tight">Black Knight</h1>
         </button>
         <button
@@ -148,19 +143,12 @@ export default function Sidebar({
         <div>
           <button
             onClick={handleLogoClick}
-            className="text-left hover:opacity-70 transition-opacity flex items-center gap-3"
+            className="text-left hover:opacity-70 transition-opacity"
           >
-            <img
-              src="/og-image.png"
-              alt="Black Knight Logo"
-              className="w-8 h-8 rounded-full object-cover"
-            />
-            <div>
-              <h1 className="text-3xl lg:text-4xl font-light tracking-tight mb-2">
-                Black Knight
-              </h1>
-              <p className="text-gray-500 text-sm">Developer & Designer</p>
-            </div>
+            <h1 className="text-3xl lg:text-4xl font-light tracking-tight mb-2">
+              Black Knight
+            </h1>
+            <p className="text-gray-500 text-sm">Developer & Designer</p>
           </button>
 
           {/* Navigation */}
