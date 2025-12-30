@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://black-knight.dev"), // Für Produktion auf deiner Domain
   title: "Black Knight Portfolio",
   description:
-    "Passionate Junior Developer from Munich, Germany, blending AI tools like Claude with hands-on coding to build innovative web apps that solve real problems.",
+    "Black Knight Portfolio - Junior Developer from Munich. Building innovative web apps with AI tools and modern tech.",
   keywords: ["Portfolio", "Webentwicklung", "Next.js", "TypeScript"],
   openGraph: {
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "/favicon.jpeg",
+    icon: "/favicon.png",
   },
 };
 

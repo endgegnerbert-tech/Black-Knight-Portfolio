@@ -16,7 +16,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$
 const metadata = {
     metadataBase: new URL("https://black-knight.dev"),
     title: "Black Knight Portfolio",
-    description: "Passionate Junior Developer from Munich, Germany, blending AI tools like Claude with hands-on coding to build innovative web apps that solve real problems.",
+    description: "Black Knight Portfolio - Junior Developer from Munich. Building innovative web apps with AI tools and modern tech.",
     keywords: [
         "Portfolio",
         "Webentwicklung",
@@ -34,7 +34,7 @@ const metadata = {
         ]
     },
     icons: {
-        icon: "/favicon.jpeg"
+        icon: "/favicon.png"
     }
 };
 function RootLayout({ children }) {
