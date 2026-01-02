@@ -5,6 +5,7 @@ export const Projekte: Project[] = [
     id: 1,
     slug: "school-project",
     title: "School Project Website",
+    category: "non-ai",
     description:
       "A website for a school project about French history, designed to present historical information and educational content.",
     longDescription:
@@ -25,6 +26,7 @@ export const Projekte: Project[] = [
     id: 2,
     slug: "invoice-app",
     title: "Invoice Web App",
+    category: "ai",
     description:
       "A web application for managing invoices and billing processes, helping users track and organize their financial documents.",
     longDescription:
@@ -44,6 +46,7 @@ export const Projekte: Project[] = [
   {
     id: 3,
     slug: "cropclear",
+    category: "ai",
     title: "Cropclear App",
     description:
       "A web application designed to improve communication and transparency for companies in Africa, facilitating better business operations. The project is now in closed beta test.",
@@ -72,13 +75,14 @@ export const Projekte: Project[] = [
   },
   {
     id: 4,
-    slug: "ai-app",
-    title: "AI App",
+    slug: "kontext-ai",
+    category: "ai",
+    title: "kontext-ai",
     description:
       "A context-aware AI application that focuses on understanding the user through natural language processing and personalized interactions.",
     longDescription:
       "An advanced AI-powered application that learns from user interactions to provide increasingly personalized and context-aware responses. The system utilizes cutting-edge natural language processing to understand user intent and deliver meaningful, helpful interactions.",
-    status: "planned",
+    status: "in-progress",
     projectUrl: "/",
     techStack: ["Next.js", "OpenAI API", "Supabase", "TypeScript"],
     features: [
@@ -91,6 +95,7 @@ export const Projekte: Project[] = [
   {
     id: 5,
     slug: "scrimba-scoreboard",
+    category: "non-ai",
     title: "Scrimba Scoreboard",
     description:
       "A minimalist scoreboard app built to strengthen fundamental web development skills and demonstrate proficiency without AI assistance.",
@@ -109,6 +114,7 @@ export const Projekte: Project[] = [
   },
   {
     id: 6,
+    category: "non-ai",
     slug: "password-generator",
     title: "Password Generator",
     description:
@@ -128,6 +134,30 @@ export const Projekte: Project[] = [
 
     screenshots: [
       "/screenshots/passwordGenerator.png",
+    ],
+  },
+  {
+    id: 7,
+    category: "non-ai",
+    slug: "unit-converter",
+    title: "Unit Converter",
+    description:
+      "A minimalist unit converter app for length, volume & mass – another solo project in this series to show my vanilla JS progress.",
+    longDescription:
+      "Built a fully vanilla HTML/CSS/JavaScript unit converter with live bidirectional conversions across Length (m/ft/cm/in), Volume (l/gal/ml/oz), Mass (kg/lb/g/oz). Real-time updates on input change, robust form validation blocks empty/zero/negative values with alerts, localStorage persists entire session state. Clean responsive tabbed interface switches categories instantly – drag, type, convert anywhere!",
+    status: "completed",
+    projectUrl: "https://unit-converter-chi-pied.vercel.app",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    features: [
+      "Live bidirectional conversions across Length (m/ft/cm/in), Volume (l/gal/ml/oz), Mass (kg/lb/g/oz)",
+      "Real-time updates on input change",
+      "Robust form validation blocks empty/zero/negative values with alerts",
+      "LocalStorage persists entire session state",
+      "Clean responsive tabbed interface switches categories instantly",
+    ],
+
+    screenshots: [
+      "/screenshots/unitConverter.png",
     ],
   },
 ];

@@ -5,6 +5,7 @@ export interface Project {
   description: string;
   longDescription?: string;
   status: "in-progress" | "completed" | "planned" | "beta-test";
+  category: "ai" | "non-ai";
   projectUrl?: string;
   techStack?: string[];
   screenshots?: string[];
